@@ -1,0 +1,115 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+::selection{
+  background-color: #ffae00;
+  color: #fff;
+}
+
+.feature-col:hover h3{
+  color: #fff;
+}
+.feature-col:hover svg{
+  fill: #000;
+}
+.priceTabUl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.priceTab .react-tabs__tab-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #181818;
+  width: fit-content;
+  margin: 0 auto;
+}
+.priceTab .react-tabs__tab-list li{
+  color: #fff;
+  font-weight: 800;
+}
+.priceTab .react-tabs__tab-list li:hover{
+  color: #181818;
+}
+.react-tabs__tab-list {
+  border: none !important;
+}
+.react-tabs__tab--selected{
+  background-color: #00AEEF !important;
+      border-radius: 0 !important;
+      color: #fff !important;
+}
+.InnerPriceTab .react-tabs__tab-list{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  background-color: #181818;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 4px;
+}
+.InnerPriceTab .react-tabs__tab-list li{
+  color: #fff;
+  font-weight: 600;
+  padding: 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.marquee-container:before {
+    content: "";
+    color: #ffff;
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 400px;
+    background-position: left center;
+    background-size: cover;
+    height: 100%;
+    z-index: 999;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
+}
+
+.marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+.marquee:hover{
+  animation-play-state: paused;
+}
+
+@keyframes trustPilotmarquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.trustPilot-marquee {
+  display: flex;
+  white-space: nowrap;
+  animation: trustPilotmarquee 20s linear infinite;
+}
+.trustPilot-marquee:hover{
+  animation-play-state: paused;
+}
+.instant-funding svg.e-font-icon-svg.e-fas-bolt {
+    width: 28px !important;
+}
+
