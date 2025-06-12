@@ -5,7 +5,7 @@ import PriceTab from "../Components/PriceTab";
 import logo from "../assets/logo.webp";
 import blueArrow from "../assets/icons/blue-arrow-icon.png";
 import TrustPilotMarquee from "../Components/TrustPilotMarquee";
-import WorkSteps from "../Components/workSteps";
+import WorkSteps from "../Components/WorkSteps";
 
 function Home() {
   return (
