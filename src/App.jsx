@@ -4,7 +4,7 @@ import WhoWeAre from './pages/WhoWeAre';
 import Faq from './pages/Faq';
 import ContactUs from './pages/ContactUs';
 import Navbar from './Components/Navbar';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 import GiveawayPopup from './Components/GiveawayPopup';
 import useLenis from './hooks/useLenis';
 import TopBar from './Components/TopBar';

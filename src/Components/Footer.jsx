@@ -124,7 +124,7 @@ function Footer() {
             does not provide any trading education or other services.
           </p>
           <p className="text-base text-white text-center mt-10">
-            &copy; {new Date().getFullYear()} FundedLake. All rights reserved.
+            &copy; 2025 FundedLake. All rights reserved.
           </p>
         </div>
       </div>
