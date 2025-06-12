@@ -23,6 +23,9 @@ function StepOneFaq() {
               your Funded Account taken away.
             </li>
           </ul>
+              <p>
+            <span className="font-bold text-orange-500">Example:</span> if your prior day’s end of day balance (5pm EST) was $100,000, your account would violate the daily stop loss limit if your equity reached $95,000 during the day. If your floating equity is +$5,000 on a $100,000 account, your new- day (5pm EST) max loss is based on your balance from the previous day ($100,000). So, your daily loss limit would still be $95,000.
+          </p>
         </div>
       ),
     },
@@ -171,13 +174,12 @@ function StepOneFaq() {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="border border-gray-700 rounded-lg bg-[#181818] text-white"
           >
             <button
               onClick={() => toggle(index)}
-              className="w-full flex justify-between items-center px-6 py-4 text-left"
+              className="w-full flex justify-between items-center text-left"
             >
-              <span className="font-medium text-lg">{faq.question}</span>
+              <span className="text-primary font-bold text-[16px]">{faq.question}</span>
               <ChevronDown
                 className={clsx("w-5 h-5 transition-transform duration-300", {
                   "rotate-180": openIndex === index,
@@ -185,7 +187,7 @@ function StepOneFaq() {
               />
             </button>
             {openIndex === index && (
-              <div className="px-6 pb-4 text-[16px] whitespace-pre-line text-gray-300">
+              <div className="px-3 py-4 text-[16px] whitespace-pre-line text-gray-300">
                 {faq.answer}
               </div>
             )}

@@ -112,4 +112,7 @@
 .instant-funding svg.e-font-icon-svg.e-fas-bolt {
     width: 28px !important;
 }
-
+.popup-scroll-fix {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+}

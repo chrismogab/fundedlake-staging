@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div class="font-lexend bg-[#111]">
       <div class="container w-full max-w-6xl mx-auto px-4 py-4 lg:px-0 lg:py-6">
-        <div className="grid lg:grid-cols-3 items-center gap-4 py-16 text-white">
+        <div className="grid lg:grid-cols-3 items-center gap-4 lg:py-16 md:py-8 py-4 text-white">
           <div className="col">            
             <h3 className="text-[14px] text-white text-center">COMPANY</h3>
             <ul className="font-semibold text-center mt-5">
@@ -39,7 +39,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="footerEndCol flex flex-col items-center justify-start">
+        <div className="footerEndCol flex flex-col items-center justify-start mt-6">
           <Link to="/"><img src={footerlogo} /></Link>
           <span></span>
           <ul className="social-icons flex justify-center items-center gap-8 mt-10 mb-4">

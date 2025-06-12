@@ -9,10 +9,10 @@ const Navbar = () => {
 
   return (
     <nav className="bg-dark text-white shadow-md font-lexend sticky -top-[1px] z-[999]">
-      <div className="w-full max-w-6xl h-100 mx-auto px-4 py-4 md:py-6 lg:px-0 lg:py-3 flex items-center justify-between">
+      <div className="w-full max-w-6xl h-100 mx-auto px-4 py-3 md:py-3 lg:px-0 lg:py-3 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="text-xl font-bold flex items-center space-x-2 hover:scale-110 duration-300" >
-          <img className='lg:w-[180px]' src={logo} alt="logo"  />
+          <img className='md:w-[180px] w-[150px]' src={logo} alt="logo"  />
             </NavLink>
 
         {/* Desktop Menu */}
@@ -45,9 +45,9 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden focus:outline-none"
+          className="lg:hidden focus:outline-none flex bg-primary py-[5px] px-2 rounded-[4px] gap-2"
         >
-          <Menu className="w-6 h-6" /> Menu
+          <Menu className="w-6 h-6" /> MENU
         </button>
       </div>
 

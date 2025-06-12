@@ -14,7 +14,7 @@ const ContactUs = () => {
           </h1>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-[#000] to-[#000c15] mx-auto font-lexend md:px-0 px-4">
+      <div className="bg-gradient-to-b from-[#000] to-[#000c15] mx-auto font-lexend md:px-0 px-4 md:pb-16 pb-6">
         <div className="md:max-w-4xl mx-auto text-white">
           <form action="">
             <div className="name-mail md:flex items-center justify-between gap-5">

@@ -6,7 +6,7 @@ function WorkSteps() {
   return (
     <div className="bg-black  py-12 text-white flex flex-col md:flex-row justify-center items-stretch gap-6 md:px-4">
       <div className="grid md:grid-cols-3 grid-cols-1 lg:gap-10 md:gap-6 gap-4 lg:max-w-6xl md:w-full w-[95%] mx-auto">
-        <div className="col relative lg:py-10 bg-gradient-to-b from-dark to-[#000c15] md:p-4 w-[100%] flex flex-col items-start md:gap-5 gap-3 justify-between rounded-md md:mt-0 mt-6">
+        <div className="col relative lg:py-10 px-10 py-10 bg-gradient-to-b from-dark to-[#000c15] md:p-4 w-[100%] flex flex-col items-start md:gap-5 gap-3 justify-between rounded-md md:mt-0 mt-6">
           <div className="flex flex-col md:gap-6 gap-4 items-start">
             <span className="stepNum text-primary w-fit text-1xl py-1 px-4 rounded-lg border border-2-primary">
               STEP 1
@@ -20,16 +20,16 @@ function WorkSteps() {
               <li>Do Not Violate Max And Daily Drawdown</li>
             </ul>
           </div>
-          <span className="text-primary font-medium text-3xl uppercase">
+          <span className="text-primary font-medium md:text-3xl text-2xl uppercase">
             Evalution phase
           </span>
           <img
-            className="rightArrow w-[70px] absolute md:-right-5 lg:top-2/3 md:top-1/3 right-24 -bottom-24 z-50 md:rotate-0 rotate-90"
+            className="rightArrow w-[60px] absolute md:-right-5 lg:top-2/3 md:top-1/3 md:block hidden z-50 md:rotate-0 rotate-90"
             src={rightArrow}
             alt=""
           />
         </div>
-        <div className="col relative lg:py-10 bg-gradient-to-b from-dark to-[#000c15] md:p-4 w-[100%] flex flex-col items-start md:gap-5 gap-3 justify-between rounded-md md:mt-0 mt-6">
+        <div className="col relative lg:py-10 px-10 py-10 bg-gradient-to-b from-dark to-[#000c15] md:p-4 w-[100%] flex flex-col items-start md:gap-5 gap-3 justify-between rounded-md md:mt-0 mt-6">
           <div className="flex flex-col md:gap-6 gap-4 items-start">
             <span className="stepNum text-primary w-fit text-1xl py-1 px-4 rounded-lg border border-2-primary">
               STEP 2
@@ -39,18 +39,18 @@ function WorkSteps() {
             </h3>
             <p className="lg:text-3xl md:text-2xl text-2xl font-bold">Earn as a Funded Trader</p>
             <span className="amount text-[36px] text-white">$109.200</span>
-            <img className="md:w-[80px] w-[100px]" src={graphImg} alt="" />
+            <img className="w-[80px]" src={graphImg} alt="" />
           </div>
-          <span className="text-primary font-medium text-3xl uppercase">
+          <span className="text-primary font-medium md:text-3xl text-2xl uppercase">
             Funded
           </span>
           <img
-            className="rightArrow w-[70px] absolute md:-right-5 lg:top-2/3 md:top-1/3 right-24 -bottom-24 z-50 md:rotate-0 rotate-90"
+            className="rightArrow w-[60px] absolute md:-right-5 lg:top-2/3 md:top-1/3 md:block hidden z-50 md:rotate-0 rotate-90"
             src={rightArrow}
             alt=""
           />
         </div>
-        <div className="col relative lg:py-10 bg-gradient-to-b from-dark to-[#000c15] md:p-4 w-[100%] flex flex-col items-start md:gap-5 gap-3 justify-between rounded-md md:mt-0 mt-6">
+        <div className="col relative lg:py-10 px-10 py-10 bg-gradient-to-b from-dark to-[#000c15] md:p-4 w-[100%] flex flex-col items-start md:gap-5 gap-3 justify-between rounded-md md:mt-0 mt-6">
           <div className="flex flex-col md:gap-6 gap-4 items-start">
             <span className="stepNum text-primary w-fit text-1xl py-1 px-4 rounded-lg border border-2-primary">
             STEP 3
@@ -62,7 +62,7 @@ function WorkSteps() {
             <li>First payout is instant</li>
           </ul>
           </div>
-          <span className="text-primary font-medium text-3xl uppercase">
+          <span className="text-primary font-medium md:text-3xl text-2xl uppercase">
             Payout
           </span>
         </div>

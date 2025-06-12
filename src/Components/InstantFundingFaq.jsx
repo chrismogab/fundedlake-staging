@@ -176,32 +176,31 @@ function InstantFundingFaq() {
 
   return (
     <div className="max-w-4xl mx-auto py-10">
-      <div className="space-y-4">
-        {faqs.map((faq, index) => (
-          <div
-            key={index}
-            className="border border-gray-700 rounded-lg bg-[#181818] text-white"
-          >
-            <button
-              onClick={() => toggle(index)}
-              className="w-full flex justify-between items-center px-6 py-4 text-left"
-            >
-              <span className="font-medium text-lg">{faq.question}</span>
-              <ChevronDown
-                className={clsx("w-5 h-5 transition-transform duration-300", {
-                  "rotate-180": openIndex === index,
-                })}
-              />
-            </button>
-            {openIndex === index && (
-              <div className="px-6 pb-4 text-[16px] whitespace-pre-line text-gray-300">
-                {faq.answer}
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+              <div
+                key={index}
+              >
+                <button
+                  onClick={() => toggle(index)}
+                  className="w-full flex justify-between items-center text-left"
+                >
+                  <span className="text-primary font-bold text-[16px]">{faq.question}</span>
+                  <ChevronDown
+                    className={clsx("w-5 h-5 transition-transform duration-300", {
+                      "rotate-180": openIndex === index,
+                    })}
+                  />
+                </button>
+                {openIndex === index && (
+                  <div className="px-3 py-4 text-[16px] whitespace-pre-line text-gray-300">
+                    {faq.answer}
+                  </div>
+                )}
               </div>
-            )}
+            ))}
           </div>
-        ))}
-      </div>
-    </div>
+        </div>
   );
 }
 
