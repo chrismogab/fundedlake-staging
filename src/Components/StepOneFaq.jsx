@@ -180,11 +180,7 @@ function StepOneFaq() {
               className="w-full flex justify-between items-center text-left"
             >
               <span className="text-primary font-bold text-[16px]">{faq.question}</span>
-              <ChevronDown
-                className={clsx("w-5 h-5 transition-transform duration-300", {
-                  "rotate-180": openIndex === index,
-                })}
-              />
+            
             </button>
             {openIndex === index && (
               <div className="px-3 py-4 text-[16px] whitespace-pre-line text-gray-300">

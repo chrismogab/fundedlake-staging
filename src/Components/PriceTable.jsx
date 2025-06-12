@@ -7,13 +7,13 @@ import InstantPriceCard from "./InstantPriceCard";
 export default () => (
   <Tabs className="priceTab md:text-[14px] font-bold text-sm text-white">
     <TabList className="priceTabUl">
-      <Tab className="cursor-pointer p-6 bg-dark hover:bg-white duration-200 hover:text-dark rounded-none">
+      <Tab className="cursor-pointer md:p-6 p-4 bg-dark hover:bg-white duration-200 hover:text-dark rounded-none">
         ONE STEP
       </Tab>
-      <Tab className="cursor-pointer p-6 bg-dark hover:bg-white duration-200 hover:text-dark rounded-none">
+      <Tab className="cursor-pointer md:p-6 p-4 bg-dark hover:bg-white duration-200 hover:text-dark rounded-none">
         TWO STEP
       </Tab>
-      <Tab className="cursor-pointer p-6 bg-dark hover:bg-white duration-200 hover:text-dark rounded-none">
+      <Tab className="cursor-pointer md:p-6 p-4 bg-dark hover:bg-white duration-200 hover:text-dark rounded-none">
         INSTANT
       </Tab>
     </TabList>
@@ -235,7 +235,7 @@ export default () => (
         </TabPanel>
       </Tabs>
     </TabPanel>
-    <TabPanel className="instant InnerPriceTab mt-10 lg:text-lg w-[471px] mx-auto">
+    <TabPanel className="instant InnerPriceTab mt-10 lg:text-lg md:w-[471px] mx-auto">
       <Tabs>
         <TabList>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$5K</Tab>

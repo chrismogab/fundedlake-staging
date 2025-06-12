@@ -32,7 +32,7 @@ function InstantPriceCard() {
               const hasDescription = !!step.description;
               return (
                 <li key={idx} className="relative flex items-start justify-between gap-10">
-                  <div className="labels flex items-center justify-between lg:w-[55%] text-sm gap-2 text-white">
+                  <div className="labels flex items-center justify-between w-[45%] text-sm gap-2 text-white">
                     {step.label}
                     {hasDescription ? (
                       <button onClick={() => handleTooltipToggle(idx)} className="relative group focus:outline-none">

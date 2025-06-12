@@ -31,21 +31,21 @@ function Faq() {
       <div className="bg-gradient-to-b from-black to-dark text-white text-center pt-16 pb-6 px-4 md:px-8">
         <div className="faq-tabs max-w-4xl mx-auto">
           <Tabs>
-            <TabList className='text-start justify-start flex md:flex-row flex-col gap-1 text-black'>
+            <TabList className='text-start justify-start flex md:flex-row flex-col lg:gap-5 md:gap-4 gap-0 text-black'>
               <Tab className="p-4 md:w-[25%] md:h-36 h-24 uppercase text-center cursor-pointer hover:bg-primary bg-dark text-white flex items-center justify-center md:text-[20px] font-bold text-xl" selectedClassName="bg-primary text-white">One Step</Tab>
               <Tab className="p-4 md:w-[25%] md:h-36 h-24 uppercase text-center cursor-pointer hover:bg-primary bg-dark text-white flex items-center justify-center md:text-[20px] font-bold text-lg" selectedClassName="bg-primary text-white">Two Step</Tab>
               <Tab className="p-4 md:w-[25%] md:h-36 h-24 uppercase text-center cursor-pointer hover:bg-primary bg-dark text-white flex items-center justify-center md:text-[20px] font-bold text-lg" selectedClassName="bg-primary text-white">instant funding</Tab>
               <Tab className="p-4 md:w-[25%] md:h-36 h-24 uppercase text-center cursor-pointer hover:bg-primary bg-dark text-white flex items-center justify-center md:text-[20px] font-bold text-lg" selectedClassName="bg-primary text-white">general questions</Tab>
             </TabList>
-            <TabPanel className="one-step text-start md:mt-10 mt-5">
+            <TabPanel className="one-step text-start mt-10">
               <h3 className='md:text-3xl text-2xl font-bold'><span className='text-primary '>ONE</span> STEP QUESTIONS</h3>         
               <StepOneFaq />   
             </TabPanel>
-            <TabPanel className="two-step text-start md:mt-10 mt-5">
+            <TabPanel className="two-step text-start mt-10">
               <h3 className='md:text-3xl text-2xl font-bold'><span className='text-primary '>TWO</span> STEP QUESTIONS</h3>
               <StepTwoFaq />
             </TabPanel>
-            <TabPanel className="instant-funding text-start md:mt-10 mt-5">
+            <TabPanel className="instant-funding text-start mt-10">
               <h3 className='md:text-3xl text-2xl font-bold'><span className='text-primary '>INSTANT FUNDING</span> STEP QUESTIONS</h3>
               <InstantFundingFaq />
             </TabPanel>
