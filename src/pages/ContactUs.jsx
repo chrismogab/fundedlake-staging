@@ -19,11 +19,11 @@ const ContactUs = () => {
           <form action="">
             <div className="name-mail md:flex items-center justify-between gap-5">
               <div className="user-name md:w-1/2">
-                <label htmlFor="name" className="block text-sm font-medium">
+                <label htmlFor="name" className="block text-sm font-medium mb-3">
                   <span className="required text-lg">Name*</span>
                 </label>
                 <input
-                  className="w-full placeholder:text-black mt-2 px-2 py-3 rounded-md"
+                  className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
                   type="text"
                   id="name"
                   name="name"
@@ -31,11 +31,11 @@ const ContactUs = () => {
                 />
               </div>
               <div className="mail md:w-1/2">
-                <label htmlFor="name" className="block text-sm font-medium">
+                <label htmlFor="name" className="block text-sm font-medium my-3">
                   <span className="required text-lg">Email*</span>
                 </label>
                 <input
-                  className="w-full placeholder:text-black mt-2 px-2 py-3 rounded-md"
+                  className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
                   type="email"
                   id="email"
                   name="email"
@@ -44,11 +44,11 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="contact-number w-full mt-4">
-              <label htmlFor="name" className="block text-sm font-medium">
+              <label htmlFor="name" className="block text-sm font-medium my-3">
                 <span className="required text-lg">Contact Number*</span>
               </label>
               <input
-                className="w-full placeholder:text-black mt-2 px-2 py-3 rounded-md"
+                className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
                 type="tel"
                 id="number"
                 name="number"
@@ -56,11 +56,11 @@ const ContactUs = () => {
               />
             </div>
             <div className="subject w-full mt-4">
-              <label htmlFor="name" className="block text-sm font-medium">
+              <label htmlFor="name" className="block text-sm font-medium my-3">
                 <span className="required text-lg">Subject*</span>
               </label>
               <input
-                className="w-full placeholder:text-black mt-2 px-2 py-3 rounded-md"
+                className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
                 type="text"
                 id="subject"
                 name="subject"
@@ -68,11 +68,11 @@ const ContactUs = () => {
               />
             </div>
             <div className="your-message w-full mt-4">
-              <label htmlFor="name" className="block text-sm font-medium">
+              <label htmlFor="name" className="block text-sm font-medium my-3">
                 <span className="required text-lg">Your Message*</span>
               </label>
               <textarea
-                className="placeholder:text-black w-full mt-2 px-2 py-3 rounded-md h-[140px]"
+                className="placeholder:text-black w-full md:mt-2 px-2 py-3 rounded-md h-[140px]"
                 type="text"
                 id="message"
                 name="message"
