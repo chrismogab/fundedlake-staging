@@ -13,7 +13,7 @@ const ContactUs = () => {
 
     emailjs
       .sendForm('service_ogcgjob', 'template_tdlk21g', form.current, {
-        publicKey: '12ibR_qWJW6y1ZLWO',
+        publicKey: 'XTZEmyTvzR90k0-qM',
       })
       .then(
         () => {
