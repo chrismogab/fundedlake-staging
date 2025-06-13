@@ -104,21 +104,21 @@ function Faq() {
             </TabList>
 
             <TabPanel className="one-step text-start mt-10">
-              <h3 className="md:text-3xl text-2xl font-bold">
+              <h3 className="text-3xl font-bold">
                 <span className="text-primary ">ONE</span> STEP QUESTIONS
               </h3>
               <StepOneFaq searchTerm={searchTerm} />
             </TabPanel>
 
             <TabPanel className="two-step text-start mt-10">
-              <h3 className="md:text-3xl text-2xl font-bold">
+              <h3 className="text-3xl font-bold">
                 <span className="text-primary ">TWO</span> STEP QUESTIONS
               </h3>
               <StepTwoFaq searchTerm={searchTerm} />
             </TabPanel>
 
             <TabPanel className="instant-funding text-start mt-10">
-              <h3 className="md:text-3xl text-2xl font-bold">
+              <h3 className="text-3xl font-bold">
                 <span className="text-primary ">INSTANT FUNDING</span> STEP
                 QUESTIONS
               </h3>
@@ -126,7 +126,7 @@ function Faq() {
             </TabPanel>
 
             <TabPanel className="general-ques text-start md:mt-10 mt-5">
-              <h3 className="md:text-3xl text-2xl font-bold">
+              <h3 className="text-3xl font-bold">
                 <span className="text-primary ">GENERAL</span> STEP QUESTIONS
               </h3>
               <GeneralQuestionFaq searchTerm={searchTerm} />

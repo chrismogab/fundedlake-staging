@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="w-full max-w-6xl h-100 mx-auto px-4 py-3 md:py-3 lg:px-0 lg:py-3 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="text-xl font-bold flex items-center space-x-2 hover:scale-110 duration-300" >
-          <img className='md:w-[180px] w-[150px]' src={logo} alt="logo"  />
+          <img className='md:w-[180px] w-[160px]' src={logo} alt="logo"  />
             </NavLink>
 
         {/* Desktop Menu */}
