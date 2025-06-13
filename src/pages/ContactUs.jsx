@@ -1,7 +1,24 @@
 import { Helmet } from "react-helmet";
-import backgroundImg from "../assets/contact-main-bg.webp"; // replace with your correct image path
+import backgroundImg from "../assets/contact-main-bg.webp";
+import emailjs from 'emailjs-com';
 
 const ContactUs = () => {
+
+  const handleSubmit = (e) => {
+  e.preventDefault();
+  emailjs.sendForm(
+    'service_ogcgjob',
+    'template_tdlk21g',
+    e.target,
+    '12ibR_qWJW6y1ZLWO'
+  )
+  .then((result) => {
+    alert("Message sent!");
+  }, (error) => {
+    alert("Something went wrong.");
+  });
+};
+
   return (
     <>
       <Helmet>
@@ -53,12 +70,12 @@ const ContactUs = () => {
       </div>
       <div className="bg-gradient-to-b from-[#000] to-[#000c15] mx-auto font-lexend md:px-0 px-4 md:pb-16 pb-6">
         <div className="md:max-w-4xl mx-auto text-white">
-          <form action="">
+          <form onSubmit={handleSubmit}>
             <div className="name-mail md:flex items-center justify-between gap-5">
               <div className="user-name md:w-1/2">
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-3"
+                  className="block text-sm font-medium mb-3 md:my-3"
                 >
                   <span className="required text-lg">Name*</span>
                 </label>
@@ -67,13 +84,13 @@ const ContactUs = () => {
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Enter Your Name"
+                  placeholder="Enter Your Name" required
                 />
               </div>
               <div className="mail md:w-1/2">
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium my-3"
+                  className="block text-sm font-medium  my-3"
                 >
                   <span className="required text-lg">Email*</span>
                 </label>
@@ -82,7 +99,7 @@ const ContactUs = () => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="example@gmail.com"
+                  placeholder="example@gmail.com" required
                 />
               </div>
             </div>
@@ -95,7 +112,7 @@ const ContactUs = () => {
                 type="tel"
                 id="number"
                 name="number"
-                placeholder="Your Contact Number"
+                placeholder="Your Contact Number" required
               />
             </div>
             <div className="subject w-full mt-4">
@@ -107,7 +124,7 @@ const ContactUs = () => {
                 type="text"
                 id="subject"
                 name="subject"
-                placeholder="Your Message Subject"
+                placeholder="Your Message Subject" required
               />
             </div>
             <div className="your-message w-full mt-4">
@@ -119,7 +136,7 @@ const ContactUs = () => {
                 type="text"
                 id="message"
                 name="message"
-                placeholder="Your Message Here"
+                placeholder="Your Message Here" required
               />
             </div>
             <button
