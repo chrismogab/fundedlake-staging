@@ -6,36 +6,52 @@ import logo from "../assets/logo.webp";
 import blueArrow from "../assets/icons/blue-arrow-icon.png";
 import TrustPilotMarquee from "../Components/TrustPilotMarquee";
 import WorkSteps from "../Components/WorkSteps";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
-
 
 function Home() {
   return (
     <>
       <div className="Main-wrapper">
-
-<Helmet>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="https://fundedlake.com/xmlrpc.php" />
-<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-<title>FUNDEDLAKE – Where traders empower traders</title>
-<meta name="description" content="FUNDEDLAKE offers challenges up to $400k, instant funding up to $100k(no consistency rule), fast payouts, and instant support!" />
-<link rel="canonical" href="https://fundedlake.com/" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="FUNDEDLAKE – Where traders empower traders" />
-<meta property="og:description" content="FUNDEDLAKE offers challenges up to $400k, instant funding up to $100k(no consistency rule), fast payouts, and instant support!" />
-<meta property="og:url" content="https://fundedlake.com/" />
-<meta property="og:site_name" content="FundedLake" />
-<meta property="article:modified_time" content="2025-05-03T23:18:48+00:00" />
-<meta property="og:image" content="https://fundedlake.com/wp-content/uploads/2025/04/cropped-android-chrome-512x512-2.png" />
-<meta property="og:image:width" content="512" />
-<meta property="og:image:height" content="512" />
-<meta property="og:image:type" content="image/png" />
-<meta name="twitter:card" content="summary_large_image" />
-</Helmet>
+        <Helmet>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="profile" href="http://gmpg.org/xfn/11" />
+          <link rel="pingback" href="https://fundedlake.com/xmlrpc.php" />
+          <meta
+            name="robots"
+            content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+          />
+          <title>FUNDEDLAKE – Where traders empower traders</title>
+          <meta
+            name="description"
+            content="FUNDEDLAKE offers challenges up to $400k, instant funding up to $100k(no consistency rule), fast payouts, and instant support!"
+          />
+          <link rel="canonical" href="https://fundedlake.com/" />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:title"
+            content="FUNDEDLAKE – Where traders empower traders"
+          />
+          <meta
+            property="og:description"
+            content="FUNDEDLAKE offers challenges up to $400k, instant funding up to $100k(no consistency rule), fast payouts, and instant support!"
+          />
+          <meta property="og:url" content="https://fundedlake.com/" />
+          <meta property="og:site_name" content="FundedLake" />
+          <meta
+            property="article:modified_time"
+            content="2025-05-03T23:18:48+00:00"
+          />
+          <meta
+            property="og:image"
+            content="https://fundedlake.com/wp-content/uploads/2025/04/cropped-android-chrome-512x512-2.png"
+          />
+          <meta property="og:image:width" content="512" />
+          <meta property="og:image:height" content="512" />
+          <meta property="og:image:type" content="image/png" />
+          <meta name="twitter:card" content="summary_large_image" />
+        </Helmet>
 
         {/* Hero Section */}
 
@@ -56,15 +72,9 @@ function Home() {
           {/* Content */}
           <div className="relative z-20 flex flex-col items-center text-center px-4 py-10">
             <h2 className="text-white font-bold text-3xl sm:text-5xl md:text-6xl lg:text-[80px] leading-tight">
-              WHERE{" "}
-              <span className="text-primary">
-                TRADERS
-              </span>
+              WHERE <span className="text-primary">TRADERS</span>
               <br />
-              EMPOWER{" "}
-              <span className="text-primary">
-                WORLD
-              </span>
+              EMPOWER <span className="text-primary">WORLD</span>
             </h2>
 
             <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl max-w-4xl mt-6 font-medium">
@@ -134,11 +144,9 @@ function Home() {
             <div class="flex flex-wrap w-full lg:mb-20 mb-10 flex-col items-center text-center">
               <h2 class="sm:text-[50px] leading-[1.1em] text-3xl font-bold title-font mb-2 text-white">
                 ENABLING
-                <span className="text-gredient text-primary"> TRADERS
-                </span>
+                <span className="text-gredient text-primary"> TRADERS</span>
                 <br /> AROUND THE
-                <span className="text-gredient text-primary"> WORLD
-                </span>
+                <span className="text-gredient text-primary"> WORLD</span>
               </h2>
             </div>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-5 max-w-[872px] mx-auto">
@@ -172,8 +180,11 @@ function Home() {
                 </p>
               </div>
               <div className="col2 flex items-center justify-start flex-col lg:px-8 lg:py-20 px-4 py-10  rounded-md lg:gap-7 gap-6 bg-dark">
-                <NavLink to="/contact-us" className="col2-icon lg:size-[100px] w-16">
-                <svg
+                <NavLink
+                  to="/contact-us"
+                  className="col2-icon lg:size-[100px] w-16"
+                >
+                  <svg
                     aria-hidden="true"
                     class="e-font-icon-svg e-fas-headset"
                     viewBox="0 0 512 512"
@@ -182,7 +193,8 @@ function Home() {
                     fill="#fff"
                   >
                     <path d="M192 208c0-17.67-14.33-32-32-32h-16c-35.35 0-64 28.65-64 64v48c0 35.35 28.65 64 64 64h16c17.67 0 32-14.33 32-32V208zm176 144c35.35 0 64-28.65 64-64v-48c0-35.35-28.65-64-64-64h-16c-17.67 0-32 14.33-32 32v112c0 17.67 14.33 32 32 32h16zM256 0C113.18 0 4.58 118.83 0 256v16c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16v-16c0-114.69 93.31-208 208-208s208 93.31 208 208h-.12c.08 2.43.12 165.72.12 165.72 0 23.35-18.93 42.28-42.28 42.28H320c0-26.51-21.49-48-48-48h-32c-26.51 0-48 21.49-48 48s21.49 48 48 48h181.72c49.86 0 90.28-40.42 90.28-90.28V256C507.42 118.83 398.82 0 256 0z"></path>
-                  </svg></NavLink>
+                  </svg>
+                </NavLink>
                 <h3 className="text-[18px] mt-4 font-bold text-primary">
                   GET ASSISTANCE
                 </h3>
