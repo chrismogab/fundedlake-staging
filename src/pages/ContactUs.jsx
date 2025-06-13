@@ -1,9 +1,46 @@
+import { Helmet } from "react-helmet";
 import backgroundImg from "../assets/contact-main-bg.webp"; // replace with your correct image path
 
 const ContactUs = () => {
   return (
     <>
-      <div className="font-lexend relative bg-cover bg-center bg-no-repeat text-white md:h-[60vh] h-[40vh]  flex items-center justify-center text-center px-4"
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="pingback" href="https://fundedlake.com/xmlrpc.php" />
+        <meta
+          name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        />
+        <title>Contact Us - FundedLake</title>
+        <meta
+          name="description"
+          content="FundedLake is a prop trading firm offering instant funding up to $400K, fast payouts, and flexible rules for traders of all levels."
+        />
+        <link rel="canonical" href="https://fundedlake.com/contact-us/" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Contact Us - FundedLake" />
+        <meta
+          property="og:description"
+          content="FundedLake is a prop trading firm offering instant funding up to $400K, fast payouts, and flexible rules for traders of all levels."
+        />
+        <meta property="og:url" content="https://fundedlake.com/contact-us/" />
+        <meta property="og:site_name" content="FundedLake" />
+        <meta
+          property="article:modified_time"
+          content="2025-04-11T07:56:30+00:00"
+        />
+        <meta
+          property="og:image"
+          content="https://fundedlake.com/wp-content/uploads/2025/04/favicon.png"
+        />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+      <div
+        className="font-lexend relative bg-cover bg-center bg-no-repeat text-white md:h-[60vh] h-[40vh]  flex items-center justify-center text-center px-4"
         style={{ backgroundImage: `url(${backgroundImg})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-[#00000065] to-[#000000] opacity-100"></div>
@@ -19,7 +56,10 @@ const ContactUs = () => {
           <form action="">
             <div className="name-mail md:flex items-center justify-between gap-5">
               <div className="user-name md:w-1/2">
-                <label htmlFor="name" className="block text-sm font-medium mb-3">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium mb-3"
+                >
                   <span className="required text-lg">Name*</span>
                 </label>
                 <input
@@ -31,7 +71,10 @@ const ContactUs = () => {
                 />
               </div>
               <div className="mail md:w-1/2">
-                <label htmlFor="name" className="block text-sm font-medium my-3">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium my-3"
+                >
                   <span className="required text-lg">Email*</span>
                 </label>
                 <input
@@ -79,7 +122,12 @@ const ContactUs = () => {
                 placeholder="Your Message Here"
               />
             </div>
-            <button className="px-4 py-2 bg-secondory rounded-md text-black my-6 hover:scale-[0.8] duration-300 hover:bg-white" type="submit">Send Message</button>
+            <button
+              className="px-4 py-2 bg-secondory rounded-md text-black my-6 hover:scale-[0.8] duration-300 hover:bg-white"
+              type="submit"
+            >
+              Send Message
+            </button>
           </form>
         </div>
       </div>

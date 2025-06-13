@@ -1,15 +1,80 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-     <link rel="icon" type="image/svg+xml" href="./public/fevicon.png" />
-    <meta name="description" content="FUNDEDLAKE offers challenges up to $400k, instant funding up to $100k (no consistency rule), fast payouts, and instant support!">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FUNDEDLAKE – Where traders empower traders</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script src="//code.tidio.co/yf8sykwwlfeqqspcqqkfydqbdnispni3.js" async></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/fevicon.png" />
+
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="//code.tidio.co/yf8sykwwlfeqqspcqqkfydqbdnispni3.js" async></script>
+
+  <!-- Google tag (gtag.js) snippet added by Site Kit -->
+  <!-- Google Analytics snippet added by Site Kit -->
+  <script src="https://www.googletagmanager.com/gtag/js?id=GT-5R4484DC" id="google_gtagjs-js" async></script>
+  <script id="google_gtagjs-js-after">
+    window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); }
+    gtag("set", "linker", { "domains": ["fundedlake.com"] });
+    gtag("js", new Date());
+    gtag("set", "developer_id.dZTNiMT", true);
+    gtag("config", "GT-5R4484DC");
+    window._googlesitekit = window._googlesitekit || {}; window._googlesitekit.throttledEvents = []; window._googlesitekit.gtagEvent = (name, data) => { var key = JSON.stringify({ name, data }); if (!!window._googlesitekit.throttledEvents[key]) { return; } window._googlesitekit.throttledEvents[key] = true; setTimeout(() => { delete window._googlesitekit.throttledEvents[key]; }, 5); gtag("event", name, { ...data, event_source: "site-kit" }); }
+  </script>
+
+  <!-- End Google tag (gtag.js) snippet added by Site Kit -->
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '772375475708758');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=772375475708758&ev=PageView&noscript=1" /></noscript>
+
+  <script type='text/javascript'>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', 'https://connect.facebook.net/en_US/fbevents.js?v=next');
+  </script>
+  <!-- End Meta Pixel Code -->
+
+  <!-- Sign in with Google button added by Site Kit -->
+  <script src="https://accounts.google.com/gsi/client"></script>
+  <script>
+    (() => { async function handleCredentialResponse(response) { try { const res = await fetch('https://fundedlake.com/wp-login.php?action=googlesitekit_auth', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(response) }); if (res.ok && res.redirected) { location.assign(res.url); } } catch (error) { console.error(error); } } google.accounts.id.initialize({ client_id: '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', callback: handleCredentialResponse, library_name: 'Site-Kit' }); document.querySelectorAll('.googlesitekit-sign-in-with-google__frontend-output-button').forEach((siwgButtonDiv) => { google.accounts.id.renderButton(siwgButtonDiv, { "theme": "outline", "text": "signin_with", "shape": "rectangular" }); }); })();
+  </script>
+
+  <!-- End Sign in with Google button added by Site Kit -->
+  <!-- Meta Pixel Event Code -->
+  <script type='text/javascript'>
+    document.addEventListener('wpcf7mailsent', function (event) {
+      if ("fb_pxl_code" in event.detail.apiResponse) {
+        eval(event.detail.apiResponse.fb_pxl_code);
+      }
+    }, false);
+  </script>
+  <!-- End Meta Pixel Event Code -->
+</body>
+
 </html>
