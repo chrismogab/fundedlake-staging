@@ -8,7 +8,7 @@ const CertificateMarqueeSlider = () => {
   const images = [img1, img2, img3, img4];
 
   return (
-    <div className="overflow-hidden md:py-24 whitespace-nowrap bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_47%)] py-4">
+    <div className="overflow-hidden lg:py-24 md:py-10 whitespace-nowrap bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_47%)] py-4">
       <div className="marquee-container relative">
         <div className="marquee">
         {/* Duplicate for seamless loop */}

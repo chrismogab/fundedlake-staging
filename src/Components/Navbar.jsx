@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden focus:outline-none flex bg-primary py-[5px] px-2 rounded-[4px] gap-2"
+          className="lg:hidden focus:outline-none flex bg-primary py-[5px] px-2 rounded-[4px] gap-2 md:text-[16px] text-[14px] items-center"
         >
           <Menu className="w-6 h-6" /> MENU
         </button>
