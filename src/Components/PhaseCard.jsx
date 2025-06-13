@@ -10,7 +10,7 @@ const PhaseCard = ({ title, highlight, steps, bg = "bg-dark", titleColor = "text
 
   return (
     <div className={`flex flex-col justify-start items-start ${bg} group md:px-8 md:py-12 px-6 py-10`}>
-      <h3 className={`text-[27px] font-extrabold mb-4 uppercase ${titleColor}`}>
+      <h3 className={`lg:text-[27px] text-2xl font-extrabold mb-4 uppercase ${titleColor}`}>
         <span className={`${highlight}`}>{title}</span>
       </h3>
       <hr className={`border h-[1px] w-full my-8 ${borderColor}`} />

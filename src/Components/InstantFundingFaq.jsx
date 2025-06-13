@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react"; // or any icon
-import clsx from "clsx"; // optional for conditional class
 
-function InstantFundingFaq() {
+
+function InstantFundingFaq({ searchTerm }) {
   const faqs = [
     {
       question:
@@ -168,6 +167,11 @@ function InstantFundingFaq() {
     },
   ];
 
+    const filteredFaqs = faqs.filter((faq) =>
+    faq.question.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+ 
+
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -177,7 +181,7 @@ function InstantFundingFaq() {
   return (
     <div className="max-w-4xl mx-auto py-10">
           <div className="space-y-4">
-            {faqs.map((faq, index) => (
+            {filteredFaqs.map((faq, index) => (
               <div
                 key={index}
               >

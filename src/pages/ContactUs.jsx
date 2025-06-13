@@ -23,7 +23,7 @@ const ContactUs = () => {
                   <span className="required text-lg">Name*</span>
                 </label>
                 <input
-                  className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
+                  className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                   type="text"
                   id="name"
                   name="name"
@@ -35,7 +35,7 @@ const ContactUs = () => {
                   <span className="required text-lg">Email*</span>
                 </label>
                 <input
-                  className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
+                  className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                   type="email"
                   id="email"
                   name="email"
@@ -48,7 +48,7 @@ const ContactUs = () => {
                 <span className="required text-lg">Contact Number*</span>
               </label>
               <input
-                className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
+                className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                 type="tel"
                 id="number"
                 name="number"
@@ -60,7 +60,7 @@ const ContactUs = () => {
                 <span className="required text-lg">Subject*</span>
               </label>
               <input
-                className="w-full placeholder:text-black md:mt-2 px-2 py-3 rounded-md"
+                className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                 type="text"
                 id="subject"
                 name="subject"
@@ -72,7 +72,7 @@ const ContactUs = () => {
                 <span className="required text-lg">Your Message*</span>
               </label>
               <textarea
-                className="placeholder:text-black w-full md:mt-2 px-2 py-3 rounded-md h-[140px]"
+                className="placeholder:text-black w-full md:mt-2 text-black px-2 py-3 rounded-md h-[140px]"
                 type="text"
                 id="message"
                 name="message"

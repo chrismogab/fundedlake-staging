@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react"; // or any icon
-import clsx from "clsx"; // optional for conditional class
 
-function GeneralQuestionFaq() {
+
+function GeneralQuestionFaq({ searchTerm }) {
   const faqs = [
     {
       question: "What is 1 lot equal to on the Trading Platform?",
@@ -187,6 +186,10 @@ function GeneralQuestionFaq() {
     },
   ];
 
+    const filteredFaqs = faqs.filter((faq) =>
+    faq.question.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -196,7 +199,7 @@ function GeneralQuestionFaq() {
   return (
     <div className="max-w-4xl mx-auto py-10">
           <div className="space-y-4">
-            {faqs.map((faq, index) => (
+            {filteredFaqs.map((faq, index) => (
               <div
                 key={index}
               >

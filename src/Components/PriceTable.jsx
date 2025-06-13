@@ -235,7 +235,7 @@ export default () => (
         </TabPanel>
       </Tabs>
     </TabPanel>
-    <TabPanel className="instant InnerPriceTab mt-10 lg:text-lg md:w-[471px] mx-auto">
+    <TabPanel className="instant  InnerPriceTab mt-10 lg:text-lg mx-auto">
       <Tabs>
         <TabList>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$5K</Tab>
@@ -281,7 +281,7 @@ export default () => (
           </div>
         </TabPanel>
         <TabPanel className="25K">
-          <OneStepPriceCard />
+          <InstantPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
             <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
               <span className="text-primary">$1,125</span> for
@@ -296,7 +296,7 @@ export default () => (
           </div>
         </TabPanel>
         <TabPanel className="50K">
-          <OneStepPriceCard />
+          <InstantPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
             <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
               <span className="text-primary">$2,500</span> for
@@ -311,7 +311,7 @@ export default () => (
           </div>
         </TabPanel>
         <TabPanel className="100K">
-          <OneStepPriceCard />
+          <InstantPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
             <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
               <span className="text-secondory">$5,000</span> for

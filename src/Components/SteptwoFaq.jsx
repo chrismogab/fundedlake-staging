@@ -1,8 +1,6 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react"; // or any icon
-import clsx from "clsx"; // optional for conditional class
 
-function StepTwoFaq() {
+function StepTwoFaq({ searchTerm }) {
   const faqs = [
     {
       question:
@@ -112,12 +110,17 @@ function StepTwoFaq() {
       ),
     },
     {
-      question:
-        "Am I subject to any position limits?",
+      question: "Am I subject to any position limits?",
       answer: (
         <div className="space-y-4 text-white text-[16px] leading-relaxed">
           <p>
-            The maximum position that you may open is determined by your available margin. We reserve the right to increase the margin requirement, limit the number of open positions you may enter or maintain in the Funded Account at any time, and to revise in response to market conditions the drawdown levels at which trading in the funded account will be halted. We or the Liquidity Provider reserve the right to refuse to accept any order.
+            The maximum position that you may open is determined by your
+            available margin. We reserve the right to increase the margin
+            requirement, limit the number of open positions you may enter or
+            maintain in the Funded Account at any time, and to revise in
+            response to market conditions the drawdown levels at which trading
+            in the funded account will be halted. We or the Liquidity Provider
+            reserve the right to refuse to accept any order.
           </p>
         </div>
       ),
@@ -192,6 +195,10 @@ function StepTwoFaq() {
     },
   ];
 
+  const filteredFaqs = faqs.filter((faq) =>
+    faq.question.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -200,26 +207,26 @@ function StepTwoFaq() {
 
   return (
     <div className="max-w-4xl mx-auto py-10">
-          <div className="space-y-4">
-            {faqs.map((faq, index) => (
-              <div
-                key={index}
-              >
-                <button
-                  onClick={() => toggle(index)}
-                  className="w-full flex justify-between items-center text-left"
-                >
-                  <span className="text-primary font-bold text-[16px]">{faq.question}</span>
-                </button>
-                {openIndex === index && (
-                  <div className="px-3 py-4 text-[16px] whitespace-pre-line text-gray-300">
-                    {faq.answer}
-                  </div>
-                )}
+      <div className="space-y-4">
+        {filteredFaqs.map((faq, index) => (
+          <div key={index}>
+            <button
+              onClick={() => toggle(index)}
+              className="w-full flex justify-between items-center text-left"
+            >
+              <span className="text-primary font-bold text-[16px]">
+                {faq.question}
+              </span>
+            </button>
+            {openIndex === index && (
+              <div className="px-3 py-4 text-[16px] whitespace-pre-line text-gray-300">
+                {faq.answer}
               </div>
-            ))}
+            )}
           </div>
-        </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

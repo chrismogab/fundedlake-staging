@@ -58,7 +58,7 @@ function OneStepPriceCard() {
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-12 lg:w-[80%] mx-auto">
         {/* Evaluation */}
         <div className="evalution-phase flex flex-col justify-start items-start bg-dark md:px-8 md:py-12 px-6 py-10">
-          <h3 className="lg:text-[27px] font-extrabold mb-4 uppercase">
+          <h3 className="lg:text-[27px] text-2xl font-extrabold mb-4 uppercase">
             <span className="text-[#00AEEF]">Evaluation</span> Phase
           </h3>
           <hr className="bg-blue-900 border border-primary h-[1px] w-full my-8" />
@@ -69,7 +69,7 @@ function OneStepPriceCard() {
 
         {/* Funded */}
         <div className="funded flex flex-col justify-start items-start bg-primary md:px-8 md:py-12 px-6 py-10">
-          <h3 className="lg:text-[27px] font-extrabold mb-4 uppercase">
+          <h3 className="lg:text-[27px] text-2xl font-extrabold mb-4 uppercase">
             <span className="text-white">FUNDED</span>
           </h3>
           <hr className="bg-white border border-white h-[1px] w-full my-8" />

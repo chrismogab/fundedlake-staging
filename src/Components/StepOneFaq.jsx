@@ -1,9 +1,6 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react"; // or any icon
-import clsx from "clsx"; // optional for conditional class
 
-function StepOneFaq() {
-
+function StepOneFaq({ searchTerm }) {
   const faqs = [
     {
       question:
@@ -162,6 +159,10 @@ function StepOneFaq() {
     },
   ];
 
+  const filteredFaqs = faqs.filter(faq =>
+    faq.question.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggle = (index) => {
@@ -171,16 +172,13 @@ function StepOneFaq() {
   return (
     <div className="max-w-4xl mx-auto py-10">
       <div className="space-y-4">
-        {faqs.map((faq, index) => (
-          <div
-            key={index}
-          >
+        {filteredFaqs.map((faq, index) => (
+          <div key={index}>
             <button
               onClick={() => toggle(index)}
               className="w-full flex justify-between items-center text-left"
             >
               <span className="text-primary font-bold text-[16px]">{faq.question}</span>
-            
             </button>
             {openIndex === index && (
               <div className="px-3 py-4 text-[16px] whitespace-pre-line text-gray-300">
