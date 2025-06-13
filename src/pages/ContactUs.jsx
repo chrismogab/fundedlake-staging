@@ -12,7 +12,7 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_ukapa01', 'template_tdlk21g', form.current, {
+      .sendForm('service_ogcgjob', 'template_tdlk21g', form.current, {
         publicKey: '12ibR_qWJW6y1ZLWO',
       })
       .then(
