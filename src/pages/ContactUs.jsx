@@ -1,23 +1,30 @@
 import { Helmet } from "react-helmet";
 import backgroundImg from "../assets/contact-main-bg.webp";
-import emailjs from 'emailjs-com';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const ContactUs = () => {
 
-  const handleSubmit = (e) => {
-  e.preventDefault();
-  emailjs.sendForm(
-    'service_ogcgjob',
-    'template_tdlk21g',
-    e.target,
-    '12ibR_qWJW6y1ZLWO'
-  )
-  .then((result) => {
-    alert("Message sent!");
-  }, (error) => {
-    alert("Something went wrong.");
-  });
-};
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_ukapa01', 'template_tdlk21g', form.current, {
+        publicKey: '12ibR_qWJW6y1ZLWO',
+      })
+      .then(
+        () => {
+          console.log('Message sent!');
+        },
+        (error) => {
+          console.log('Something went wrong.', error.text);
+        },
+      );
+  };
+
 
   return (
     <>
@@ -70,7 +77,7 @@ const ContactUs = () => {
       </div>
       <div className="bg-gradient-to-b from-[#000] to-[#000c15] mx-auto font-lexend md:px-0 px-4 md:pb-16 pb-6">
         <div className="md:max-w-4xl mx-auto text-white">
-          <form onSubmit={handleSubmit}>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="name-mail md:flex items-center justify-between gap-5">
               <div className="user-name md:w-1/2">
                 <label
@@ -141,7 +148,7 @@ const ContactUs = () => {
             </div>
             <button
               className="px-4 py-2 bg-secondory rounded-md text-black my-6 hover:scale-[0.8] duration-300 hover:bg-white"
-              type="submit"
+              type="submit" value="Send"
             >
               Send Message
             </button>
