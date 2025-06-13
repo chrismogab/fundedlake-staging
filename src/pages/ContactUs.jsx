@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import backgroundImg from "../assets/contact-main-bg.webp";
-import { useRef } from 'react';
+import  { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
@@ -162,6 +162,11 @@ const ContactUs = () => {
             >
               Send Message
             </button>
+              {message && (
+              <p className="w-full text-center p-2 text-2xl font-semibold text-[#ffff]">
+                {message}
+              </p>
+            )}
           </form>
         </div>
       </div>
