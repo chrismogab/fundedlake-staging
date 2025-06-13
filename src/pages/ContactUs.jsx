@@ -7,20 +7,30 @@ import emailjs from '@emailjs/browser';
 const ContactUs = () => {
 
   const form = useRef();
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_ogcgjob', 'template_tdlk21g', form.current, {
+      .sendForm('service_ogcgjob', 'template_42oavva', form.current, {
         publicKey: 'XTZEmyTvzR90k0-qM',
       })
       .then(
         () => {
-          console.log('Message sent!');
+          console.log('SUCCESS!');
+          setMessage("Your message has been sent successfully!");
+          form.current.reset();  // Clear the form fields
+          setTimeout(() => {
+            setMessage("");  // Clear the message after 5 seconds
+          }, 5000);
         },
         (error) => {
-          console.log('Something went wrong.', error.text);
+          console.log('FAILED...', error.text);
+          setMessage("Failed to send message. Please try again.");
+          setTimeout(() => {
+            setMessage("");  // Clear the message after 5 seconds
+          }, 5000);
         },
       );
   };
