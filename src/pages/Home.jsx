@@ -72,9 +72,9 @@ function Home() {
           {/* Content */}
           <div className="relative z-20 flex flex-col items-center text-center px-4 py-10">
             <h2 className="text-white font-bold text-3xl sm:text-5xl md:text-6xl lg:text-[80px] leading-tight">
-              WHERE <span className="text-primary">TRADERS</span>
+              WHERE <span className="text-primary">TRADES</span>
               <br />
-              EMPOWER <span className="text-primary">WORLD</span>
+              EMPOWER <span className="text-primary">TRADERS</span>
             </h2>
 
             <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl max-w-4xl mt-6 font-medium">

@@ -43,14 +43,17 @@ const GiveawayPopup = () => {
           <X className="bg-primary rounded-full p-1" />
         </button>
 
-        <h2 className="lg:text-[40px] text-2xl font-bold mb-4"> 2 STEP CHALLENGE GIVEAWAY </h2>
-        <p className="md:text-[25px] text-[20px] my-5 font-[400]">
-          🚨 15x 2-Step Challenge Giveaway! 🚨</p>
+        <h2 className="lg:text-[40px] text-2xl font-bold mb-4">
+          2 STEP CHALLENGE GIVEAWAY
+        </h2>
+         <p className="md:text-[25px] text-[20px] my-8 font-[400]">
+          🚨 <strong>$400,000 Challenge Giveaway is LIVE!</strong> 🚨
+        </p>
         <p className="mb-2 md:text-[25px] text-lg font-[400] md:px-16 leading-[1.4em]">
           We’re giving away
-          <span className="font-semibold">
+          <strong className="font-semibold">            
             $400,000 worth of challenge accounts
-          </span>
+          </strong>
           to 5 lucky traders! 💸
         </p>
         <ul className="text-center lg:text-[24px] text-[20px] mb-4 space-y-2 pl-4">
@@ -59,37 +62,40 @@ const GiveawayPopup = () => {
           <li>🥉 3rd – 5th Place: $50K each</li>
         </ul>
 
-        <h3 className="font-semibold text-2xl my-4">🔥 How to Enter:</h3>
+        <strong className="font-semibold text-2xl my-4 mt-4 block">
+          🔥 How to Enter:
+        </strong>
         <ul className="text-center lg:text-[24px] text-[20px] mb-4 md:space-y-2 space-y-4 pl-4">
           <li>1️⃣ Sign up on our website</li>
-          <li>2️⃣ Join our Discord</li>
+          <li>2️⃣ Join us on Discord</li>
           <li>3️⃣ Follow us on Instagram</li>
         </ul>
 
         <p className="mb-4 lg:text-[25px] text-[24px]">
-          🎯
+          📅
           <strong>
-            Winners will be announced in Discord Wednesday June 4.
+            Winners will be announced Sunday, June 23 in our Discord!
           </strong>
+          Don’t miss your chance to get funded! 🔥
         </p>
         <p className="mb-6 lg:text-[25px] text-[16px]">
           Let’s build, grow, and get funded together 💼
         </p>
 
-        <div className="button-box flex flex-row justify-center items-center md:gap-6 gap-3 flex-wrap">
+        <div className="button-box flex flex-col justify-center items-center md:gap-6 gap-3 flex-wrap">
           <a
             href="https://discord.gg/W8hmTwRwk4"
             target="_blank"
-            rel="noopener noreferrer"
-            className="bg-[#00aef0] lg:text-[20px] text-[18px] text-white md:px-6 md:py-2 px-4 py-2  rounded font-bold"
+            rel="noopener"
+            className="bg-[#00aef0] lg:text-[20px] text-[18px] text-white   rounded-[6px] font-semibold text-decoration-none leading-[20px] pt-[21px] pr-[32px] pl-[32px] pb-[21px] inline-block mt-6"
           >
             JOIN OUR DISCORD
           </a>
           <a
             href="https://fundedlakedashboard.propaccount.com/en/sign-in"
             target="_blank"
-            rel="noopener noreferrer"
-            className="bg-yellow-400 lg:text-[20px] text-[18px] text-black md:px-4 md:py-2 px-7 py-2  font-bold rounded"
+            rel="noopener"
+            className="bg-yellow-400 lg:text-[20px] text-[18px] text-black font-semibold rounded-[6px] text-decoration-none leading-[20px] pt-[21px] pr-[32px] pl-[32px] pb-[21px] inline-block"
           >
             SIGN UP
           </a>

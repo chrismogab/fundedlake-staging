@@ -55,7 +55,7 @@ function WorkSteps() {
             <span className="stepNum text-primary w-fit text-1xl py-1 px-4 rounded-lg border border-2-primary">
             STEP 3
           </span>
-          <p className="lg:text-3xl md:text-2xl text-2xl font-bold mt-4">Recieve Your Payout</p>
+          <p className="lg:text-3xl md:text-2xl text-2xl font-bold mt-4">Received Your Payout</p>
           <img className="w-[100px]" src={dollarImg} alt="" />
           <ul className="md:text-[24px] text-[18px]">
             <li>Withdraw as soon as you get funded</li>

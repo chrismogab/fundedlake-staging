@@ -12,7 +12,7 @@ export default {
         dark: '#181818',
         primary: '#00AEEF',
         navy: '#022150',
-        secondory: '#ffae00',
+        secondory: '#fcaf17',
         blackish: '#000000', // '#0000' is invalid — assuming you meant black
         white: '#ffffff',
       },
