@@ -7,10 +7,14 @@ import trustpilotimg6  from "../assets/trust-pilot-img6.png";
 import trustpilotimg7  from "../assets/trust-pilot-img7.png";
 import trustpilotimg8  from "../assets/trust-pilot-img8.png";
 import trustpilotimg9  from "../assets/trust-pilot-img9.png";
+import trustpilotimg10  from "../assets/trust-pilot-img10.png";
+import trustpilotimg11  from "../assets/trust-pilot-img11.png";
+import trustpilotimg12  from "../assets/trust-pilot-img12.png";
+import trustpilotimg13  from "../assets/trust-pilot-img13.png";
 
 function TrustPilotMarquee() {
 
-    const trustImages = [trustpilotimg1, trustpilotimg2, trustpilotimg3, trustpilotimg4, trustpilotimg5, trustpilotimg6, trustpilotimg7, trustpilotimg8, trustpilotimg9]
+    const trustImages = [trustpilotimg1, trustpilotimg2, trustpilotimg3, trustpilotimg4, trustpilotimg5, trustpilotimg6, trustpilotimg7, trustpilotimg8, trustpilotimg9, trustpilotimg10, trustpilotimg11, trustpilotimg12, trustpilotimg13]
 
   return (
     <div className="overflow-hidden md:py-16 whitespace-nowrap bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_47%)] py-10">

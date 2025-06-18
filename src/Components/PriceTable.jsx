@@ -207,7 +207,7 @@ export default () => (
           <TwoStepPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
             <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
-              <span className="text-primary">$2000</span> for
+              <span className="text-primary">$1250</span> for
               <span className="text-primary"> 250K </span> Account
             </h2>
             <a
@@ -222,7 +222,7 @@ export default () => (
           <TwoStepPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
             <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
-              <span className="text-primary">$3,600</span> for
+              <span className="text-primary">$2200</span> for
               <span className="text-primary"> 400K </span> Account
             </h2>
             <a

@@ -72,7 +72,7 @@ function Home() {
           {/* Content */}
           <div className="relative z-20 flex flex-col items-center text-center px-4 py-10">
             <h2 className="text-white font-bold text-3xl sm:text-5xl md:text-6xl lg:text-[80px] leading-tight">
-              WHERE <span className="text-primary">TRADES</span>
+              WHERE <span className="text-primary">TRADERS</span>
               <br />
               EMPOWER <span className="text-primary">TRADERS</span>
             </h2>
@@ -98,7 +98,7 @@ function Home() {
                 className="absolute w-20 right-[-8rem] top-[-3rem] hidden lg:block"
               />
               <a
-                href="https://fundedlakedashboard.propaccount.com/en/affiliates"
+                href="https://discord.gg/W8hmTwRwk4"
                 target="_blank"
                 rel="noopener noreferrer"
               >

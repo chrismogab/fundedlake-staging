@@ -98,13 +98,13 @@
 
 @keyframes trustPilotmarquee {
   0% { transform: translateX(0%); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-1000%); }
 }
 
 .trustPilot-marquee {
   display: flex;
   white-space: nowrap;
-  animation: trustPilotmarquee 20s linear infinite;
+  animation: trustPilotmarquee 100s linear infinite;
 }
 .trustPilot-marquee:hover{
   animation-play-state: paused;

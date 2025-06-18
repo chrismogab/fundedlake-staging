@@ -100,7 +100,7 @@ const ContactUs = () => {
                   className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                   type="text"
                   id="name"
-                  name="name"
+                  name="user_name"
                   placeholder="Enter Your Name" required
                 />
               </div>
@@ -115,7 +115,7 @@ const ContactUs = () => {
                   className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                   type="email"
                   id="email"
-                  name="email"
+                  name="user_email"
                   placeholder="example@gmail.com" required
                 />
               </div>
@@ -128,7 +128,7 @@ const ContactUs = () => {
                 className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                 type="tel"
                 id="number"
-                name="number"
+                name="user_number"
                 placeholder="Your Contact Number" required
               />
             </div>
@@ -140,7 +140,7 @@ const ContactUs = () => {
                 className="w-full placeholder:text-black md:mt-2 text-black px-2 py-3 rounded-md"
                 type="text"
                 id="subject"
-                name="subject"
+                name="user_subject"
                 placeholder="Your Message Subject" required
               />
             </div>
@@ -152,13 +152,13 @@ const ContactUs = () => {
                 className="placeholder:text-black w-full md:mt-2 text-black px-2 py-3 rounded-md h-[140px]"
                 type="text"
                 id="message"
-                name="message"
+                name="user_message"
                 placeholder="Your Message Here" required
               />
             </div>
             <button
               className="px-4 py-2 bg-secondory rounded-md text-black my-6 hover:scale-[0.8] duration-300 hover:bg-white"
-              type="submit" value="Send"
+              type="submit" value="Send Message"
             >
               Send Message
             </button>
