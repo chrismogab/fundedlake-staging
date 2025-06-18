@@ -158,7 +158,7 @@ const ContactUs = () => {
             </div>
             <button
               className="px-4 py-2 bg-secondory rounded-md text-black my-6 hover:scale-[0.8] duration-300 hover:bg-white"
-              type="submit" value="Send Message"
+              type="submit" value="Send"
             >
               Send Message
             </button>
