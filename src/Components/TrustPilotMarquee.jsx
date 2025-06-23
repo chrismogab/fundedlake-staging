@@ -32,7 +32,7 @@ function TrustPilotMarquee() {
             key={idx}
             src={img}
             alt={`slide-${idx}`}
-            className=" w-[620px] object-contain mx-4 inline-block"
+            className=" w-[620px] object-contain mx-4 inline-block bg-white"
           />
         ))}
       </div>

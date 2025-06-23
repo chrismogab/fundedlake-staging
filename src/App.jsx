@@ -8,12 +8,14 @@ import Footer from './Components/Footer';
 import GiveawayPopup from './Components/GiveawayPopup';
 import useLenis from './hooks/useLenis';
 import TopBar from './Components/TopBar';
+import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
   useLenis();
 
   return (
     <Router>
+      <ScrollToTop />
       <GiveawayPopup />
       <TopBar />
       <Navbar />

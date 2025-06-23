@@ -13,8 +13,8 @@ const ContactUs = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_qxnkemh', 'template_42oavva', form.current, {
-        publicKey: 'oQ37iEIPMzzXCDLJr',
+      .sendForm('service_qxnkemh', 'template_kvzy7qz', form.current, {
+        publicKey: 'BAlvkCVcWoIBVBc3E',
       })
       .then(
         () => {
@@ -158,8 +158,7 @@ const ContactUs = () => {
             </div>
             <button
               className="px-4 py-2 bg-secondory rounded-md text-black my-6 hover:scale-[0.8] duration-300 hover:bg-white"
-              type="submit" value="Send"
-            >
+              type="submit" value="Send">
               Send Message
             </button>
               {message && (
