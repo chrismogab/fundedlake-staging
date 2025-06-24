@@ -1,0 +1,30 @@
+{
+  "message": "⏰ It's 20:30! And time is running out. Unlock your next trading level before the clock hits zero.",
+  "offers": [
+    {
+      "emoji": "🔹",
+      "text": "20% OFF Instant Funding",
+      "code": "INSTAFUND20"
+    },
+    {
+      "emoji": "🔸",
+      "text": "30% OFF All Other Challenges",
+      "code": "MIDYEAR"
+    }
+  ],
+  "headline": "📈 Take the deal. Make the move",
+  "buttons": [
+    {
+      "label": "JOIN OUR DISCORD",
+      "url": "https://discord.gg/W8hmTwRwk4",
+      "bg": "#00aef0",
+      "color": "white"
+    },
+    {
+      "label": "GET FUNDED NOW",
+      "url": "https://fundedlakedashboard.propaccount.com/en/challenges?planid=163",
+      "bg": "#facc15",
+      "color": "black"
+    }
+  ]
+}

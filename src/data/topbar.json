@@ -1,0 +1,15 @@
+{
+  "messages": [
+    {
+      "code": "INSTAFUND",
+      "discount": "20%",
+      "description": "20% off instant funding"
+    },
+    {
+      "code": "MIDYEAR",
+      "discount": "30%",
+      "description": "30% off all other challenges"
+    }
+  ],
+  "note": "USE CODE: INSTAFUND for 20% off instant funding — CODE: MIDYEAR for 30% off all other challenges!"
+}
