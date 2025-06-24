@@ -82,7 +82,7 @@ const WhoWeAre = () => {
 
           <p className="mt-4 text-base md:text-lg leading-relaxed">
             Unlike traditional funding firms, we prioritize fast payouts, no
-            restrictive rules, and instant funding{" "}
+            restrictive rules, and instant funding
             <br className="hidden md:block" />
             so you can focus on what truly matters—growing your account.
           </p>

@@ -98,7 +98,7 @@ function Home() {
                 className="absolute w-20 right-[-8rem] top-[-3rem] hidden lg:block"
               />
               <a
-                href="https://discord.gg/W8hmTwRwk4"
+                href="https://discord.gg/ZVtKF3rx4J"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -152,7 +152,7 @@ function Home() {
             <div className="grid md:grid-cols-2 grid-cols-1 gap-5 max-w-[872px] mx-auto">
               <div className="col1 flex items-center justify-start flex-col lg:px-8 lg:py-20 px-4 py-10  rounded-md lg:gap-7 gap-6 bg-dark">
                 <a
-                  href="https://discord.gg/W8hmTwRwk4"
+                  href="https://discord.gg/ZVtKF3rx4J"
                   className="col1-icon lg:size-[100px] w-16"
                 >
                   <svg
