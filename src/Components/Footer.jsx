@@ -43,7 +43,7 @@ function Footer() {
           <Link to="/"><img src={footerlogo} /></Link>
           <span></span>
           <ul className="social-icons flex justify-center items-center gap-8 mt-10 mb-4">
-            <a href="https://discord.gg/ZVtKF3rx4J" target="_blank">
+            <a href="https://discord.gg/vDSnjmxndy" target="_blank">
             <li className="size-6"><a href="#"></a>
               <svg
                 class="e-font-icon-svg e-fab-discord"
