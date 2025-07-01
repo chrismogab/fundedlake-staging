@@ -20,7 +20,7 @@ function TwoStepPriceCard() {
   ];
 
   const fundedSteps = [
-    { label: "Profit Target", value: "5%", description: "Funded account has no profit limit" },
+    { label: "Profit Target", value: "-", description: "Funded account has no profit limit" },
     { label: "Daily Loss Limit", value: "5%", description: "Equity-based, based on prior day balance (Hard Breach)" },
     { label: "Max Drawdown", value: "8%", description: "Equity-based, does not trail (Hard Breach)"},
     { label: "Inactivity Period", value: "30 Days", description: "Must place trade (Hard Breach)" },
