@@ -21,7 +21,7 @@ function WorkSteps() {
             </ul>
           </div>
           <span className="text-primary font-medium md:text-3xl text-2xl uppercase">
-            Evalution phase
+            EVALUATION phase
           </span>
           <img
             className="rightArrow w-[60px] absolute md:-right-5 lg:top-2/3 md:top-1/3 md:block hidden z-50 md:rotate-0 rotate-90"
