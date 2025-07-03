@@ -1,18 +1,13 @@
 {
-  "message": "⏰ It's 20:30! And time is running out. Unlock your next trading level before the clock hits zero.",
+  "message": "🔥Limited Time Promo – July 3 to 7! 🔥 ",
   "offers": [
     {
-      "emoji": "🔹",
-      "text": "20% OFF Instant Funding",
-      "code": "INSTAFUND20"
-    },
-    {
-      "emoji": "🔸",
-      "text": "30% OFF All Other Challenges",
-      "code": "MIDYEAR"
+      "emoji": "",
+      "text": "POP30",
+      "code": "30% OFF"
     }
   ],
-  "headline": "📈 Take the deal. Make the move",
+  "headline": "Whether you're just starting or scaling up, now’s the time to save big and level up your trading journey.",
   "buttons": [
     {
       "label": "JOIN OUR DISCORD",
@@ -21,8 +16,8 @@
       "color": "white"
     },
     {
-      "label": "GET FUNDED NOW",
-      "url": "https://fundedlakedashboard.propaccount.com/en/challenges?planid=163",
+      "label": "GET 30% OFF",
+      "url": "https://fundedlakedashboard.propaccount.com/en/sign-in",
       "bg": "#facc15",
       "color": "black"
     }
