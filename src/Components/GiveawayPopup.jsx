@@ -34,20 +34,13 @@ const GiveawayPopup = () => {
         <p className="md:text-[25px] text-[20px] my-8 font-[700]">
           {popupData.message}
         </p>
-
-        <ul className="text-center lg:text-[24px] text-[20px] mb-4 space-y-2 pl-4">
-          {popupData.offers.map((offer, index) => (
-            <li key={index}>
-             Use code {offer.emoji} <strong>{offer.text}</strong> at checkout to get <strong>{offer.code}</strong> all Challenges and Instant Funding accounts!
-            </li>
-          ))}
-        </ul>
-
-        <h2 className="lg:text-[24px] text-2xl font-Semibold mb-4">
-          {popupData.headline}
-        </h2>
-
-        <div className="button-box flex flex-col pt-6 justify-center items-center md:gap-6 gap-3 flex-wrap">
+        <p className="text-2xl">Get 10% off any Challenge or Instant Funding account !</p>
+        <div className="px-6 pb-4 pt-2 flex flex-col gap-2">
+        <h3 className="font-semibold text-[24px]">⚡ First payout is instant </h3>
+        <h4 className="font-semibold text-[24px]">⏱ No minimum trading days — get funded in as little as 3 days  </h4>
+        <h4 className="font-semibold text-[24px]">👥 Join our Discord for weekly calls, market insights, and exclusive giveaways</h4>
+        </div>
+        <div className="button-box flex flex-col justify-center items-center md:gap-6 gap-3 flex-wrap">
           {popupData.buttons.map((btn, index) => (
             <a
               key={index}

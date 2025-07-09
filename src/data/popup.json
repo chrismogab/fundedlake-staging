@@ -1,22 +1,14 @@
 {
-  "message": "🔥Limited Time Promo – July 3 to 7! 🔥 ",
-  "offers": [
-    {
-      "emoji": "",
-      "text": "POP30",
-      "code": "30% OFF"
-    }
-  ],
-  "headline": "Whether you're just starting or scaling up, now’s the time to save big and level up your trading journey.",
+  "message": "🔥Use code TRADE10 for 10% OFF! 🔥 ",
   "buttons": [
     {
       "label": "JOIN OUR DISCORD",
-      "url": "https://discord.gg/ZVtKF3rx4J",
+      "url": "https://discord.gg/vDSnjmxndy",
       "bg": "#00aef0",
       "color": "white"
     },
     {
-      "label": "GET 30% OFF",
+      "label": "GET FUNDED",
       "url": "https://fundedlakedashboard.propaccount.com/en/challenges?planid=163",
       "bg": "#facc15",
       "color": "black"
