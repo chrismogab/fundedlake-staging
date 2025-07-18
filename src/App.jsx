@@ -5,10 +5,10 @@ import Faq from './pages/Faq';
 import ContactUs from './pages/ContactUs';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import GiveawayPopup from './Components/GiveawayPopup';
 import useLenis from './hooks/useLenis';
 import TopBar from './Components/TopBar';
 import ScrollToTop from './Components/ScrollToTop';
+import GiveawayPopup from './Components/GiveawayPopup';
 
 function App() {
   useLenis();
