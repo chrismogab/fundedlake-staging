@@ -91,7 +91,7 @@ function Home() {
             />
 
             {/* Button with Arrow */}
-            <div className="relative mt-10">
+            <div className="relative mt-10 flex flex-col gap-5">
               <img
                 src={blueArrow}
                 alt="arrow"
@@ -104,6 +104,15 @@ function Home() {
               >
                 <button className="text-white text-lg sm:text-xl lg:text-2xl font-bold bg-gradient-to-b from-[#006BCB] to-[#0F425E] hover:scale-105 duration-300 border border-white rounded-md px-6 py-4">
                   JOIN OUR DISCORD COMMUNITY
+                </button>
+              </a>
+              <a
+                href="https://fundedlakedashboard.propaccount.com/en/sign-up"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-dark text-lg sm:text-xl lg:text-xl font-bold bg-secondory hover:scale-105 duration-300 border border-white rounded-md px-6 py-3">
+                  SIGN UP NOW
                 </button>
               </a>
             </div>

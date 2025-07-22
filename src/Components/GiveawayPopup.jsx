@@ -51,7 +51,7 @@ const GiveawayPopup = () => {
                 backgroundColor: btn.bg,
                 color: btn.color
               }}
-              className="lg:text-[20px] text-[18px] font-semibold rounded-[6px] text-decoration-none leading-[20px] pt-[21px] pr-[32px] pl-[32px] pb-[21px] inline-block"
+              className="lg:text-[20px] text-[18px] font-semibold rounded-[6px] text-decoration-none leading-[20px] py-[18px] pr-[32px] pl-[32px]  inline-block"
             >
               {btn.label}
             </a>
