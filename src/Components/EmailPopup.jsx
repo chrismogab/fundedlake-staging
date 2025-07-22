@@ -61,11 +61,11 @@ function EmailPopup() {
           <img className="border-2 md:w-full w-[90%]" src={popupImg} alt="" />
           <div className="popupContent text-start flex-col flex justify-around">
             <h3 className="font-semibold text-[24px]">
-              ⚡WIN A FREE 200k 2-STEP CHALLENGE ⚡
+              ⚡WIN A FREE 200k 2-STEP CHALLENGE GIVEAWAY ⚡
             </h3>
             <p className="text-2xl mt-4">
               As a welcome, get a chance to enter a 200k welcome 2-step
-              challenge.
+              challenge giveaway.
             </p>
             <form
               ref={form}
