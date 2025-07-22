@@ -8,7 +8,7 @@ import Footer from './Components/Footer';
 import useLenis from './hooks/useLenis';
 import TopBar from './Components/TopBar';
 import ScrollToTop from './Components/ScrollToTop';
-import GiveawayPopup from './Components/GiveawayPopup';
+import EmailPopup from './Components/EmailPopup';
 
 function App() {
   useLenis();
@@ -16,7 +16,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <GiveawayPopup />
+    <EmailPopup />
       <TopBar />
       <Navbar />
       <Routes>
