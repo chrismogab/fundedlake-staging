@@ -6,11 +6,15 @@ import img4 from '../assets/certificate-of-withdrawl4.jpeg';
 import img5 from '../assets/certificate-of-withdrawl5.jpeg'; 
 import img6 from '../assets/certificate-of-withdrawl6.jpeg'; 
 import img8 from '../assets/certificate-of-withdrawl8.jpg'; 
+import img9 from '../assets/certificate-of-withdrawl9.jpg'; 
+import img10 from '../assets/certificate-of-withdrawl10.jpg'; 
+import img11 from '../assets/certificate-of-withdrawl11.jpg'; 
+import img12 from '../assets/certificate-of-withdrawl12.jpg';
 
 
 
 const CertificateMarqueeSlider = () => {
-  const images = [img8, img7, img1, img2, img3, img4, img5, img6];
+  const images = [img12, img11, img10, img9, img8, img7, img6, img5, img4, img3, img2, img1];
 
   return (
     <div className="overflow-hidden lg:py-24 md:py-10 whitespace-nowrap bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_47%)] py-4">
