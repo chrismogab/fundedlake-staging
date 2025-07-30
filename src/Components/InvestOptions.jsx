@@ -19,7 +19,7 @@ export default function InvestOptions() {
   return (
     <section className="bg-black text-white lg:py-24 md:py-10 py-4 px-4 text-center">
       <h2 class="text-center mb-16 lg:text-6xl md:text-4xl text-3xl font-bold">
-        INVEST IN ANY <span className="text-primary"> MANNER </span>
+        TRADE ANY MARKET, <span className="text-primary"> YOUR WAY </span>
       </h2>
 
       <div className="row flex md:flex-row flex-col justify-between items-center md:max-w-5xl mx-auto gap-5">
