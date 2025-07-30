@@ -5,19 +5,19 @@ import { CircleDollarSign, Gift, ChartNoAxesCombined } from 'lucide-react';
 
 const stats = [
   {
-    icon: <CircleDollarSign className="size-12" />, // replace with your icon or image
+    icon: <CircleDollarSign className="size-20" />, // replace with your icon or image
     label: "Active Traders",
     value: 100,
     suffix: "+",
   },
   {
-    icon: <Gift className="size-12" />,
+    icon: <Gift className="size-20" />,
     label: "Funded Traders",
     value: 20,
     suffix: "+",
   },
   {
-    icon: <ChartNoAxesCombined className="size-12" />,
+    icon: <ChartNoAxesCombined className="size-20" />,
     label: "Payout Processed",
     value: 15,
     suffix: "K+",
@@ -28,7 +28,7 @@ export default function StatsSection() {
   const { ref, inView } = useInView({ triggerOnce: true });
 
   return (
-    <div className="bg-dark py-12 px-4 md:px-8">
+    <div className="bg-dark py-16 px-4 md:px-8">
       <div
         ref={ref}
         className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white"

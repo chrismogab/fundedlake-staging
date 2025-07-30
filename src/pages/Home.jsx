@@ -153,7 +153,7 @@ function Home() {
 
         {/* Stats Section */}
       
-        <div className="stats-section overflow-hidden py-4 md:py-10 lg:py-16 bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_35%)] min-w-full">
+        <div className="stats-section overflow-hidden">
           < StatsSection />
         </div>
 
