@@ -8,6 +8,10 @@ import TrustPilotMarquee from "../Components/TrustPilotMarquee";
 import WorkSteps from "../Components/WorkSteps";
 import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import MapSection from "../Components/MapSection";
+import StatsSection from "../Components/StatsSection";
+import InvestOptions from "../Components/InvestOptions";
+
 
 function Home() {
   return (
@@ -138,6 +142,25 @@ function Home() {
 
         <div class="price-table-section font-lexend bg-blackish">
           <PriceTab />
+        </div>
+
+        {/* Map Site Section */}
+      
+        <div className="map-section">
+          <MapSection />
+          
+        </div>
+
+        {/* Stats Section */}
+      
+        <div className="stats-section overflow-hidden py-4 md:py-10 lg:py-16 bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_35%)] min-w-full">
+          < StatsSection />
+        </div>
+
+        {/* Invest Option Section */}
+      
+        <div className="investment-section">
+          <InvestOptions />
         </div>
 
         {/* Certificate of withdrawl Section */}
