@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import globeImg from "../assets/globe.png"; // use the globe image you have
 
 
