@@ -33,12 +33,7 @@ const MapSection = () => {
           At FundedLake, we are proud to say that we empower traders over 20+ countries and COUNTING.
           Our growing international presence proves that great trading opportunities know no borders.
         </p>
-        <a
-          href="#about"
-          className="text-blue-400 underline font-medium hover:text-blue-600 transition"
-        >
-          Find out more about us.
-        </a>
+        <Link to="/who-we-are" className="text-blue-400 underline font-medium hover:text-blue-600 transition">Find out more about us.</Link>
       </motion.div>
     </section>
   );
