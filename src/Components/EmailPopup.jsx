@@ -64,9 +64,10 @@ function EmailPopup() {
               ⚡WIN A FREE 200k 2-STEP CHALLENGE GIVEAWAY ⚡
             </h3>
             <p className="md:text-2xl text-xl mt-4 text-center md:text-left">
-              As a welcome, get a chance to enter a 200k welcome 2-step
-              challenge giveaway.
+              Join our discord for a chance to a win a $200k 2-step challenge
+Winner will be announced on our discord
             </p>
+            {/* 
             <form
               ref={form}
               onSubmit={sendEmail}
@@ -93,13 +94,14 @@ function EmailPopup() {
                 <p className="text-sm font-semibold mt-2">{message}</p>
               )}
             </form>
+            */}
             <hr className="border-t-1 w-[95%] mx-auto border-[#b4b4b4]" />
             <div className="contact-btns flex md:gap-5 gap-2 my-6">
               <a
                 className="md:px-4 md:py-3 px-4 pt-3 m-0 font-semibold rounded-full text-[14px] md:text-[16px] bg-primary"
                 href="https://discord.gg/vDSnjmxndy"
               >
-                JOIN OUR DISCORD
+                JOIN NOW
               </a>
               <a
                 className="md:px-4 md:py-3 px-4 py-3 font-semibold rounded-full text-[14px] md:text-[16px] bg-secondory text-dark"
