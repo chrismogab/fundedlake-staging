@@ -96,7 +96,7 @@ Winner will be announced on our discord
             </form>
             */}
             <hr className="border-t-1 w-[95%] mx-auto border-[#b4b4b4]" />
-            <div className="contact-btns flex md:gap-5 gap-2 my-6">
+            <div className="contact-btns flex md:gap-5 gap-2 my-6 flex justify-center">
               <a
                 className="md:px-4 md:py-3 px-4 pt-3 m-0 font-semibold rounded-full text-[14px] md:text-[16px] bg-primary"
                 href="https://discord.gg/vDSnjmxndy"
