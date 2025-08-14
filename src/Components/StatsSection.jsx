@@ -18,7 +18,7 @@ const stats = [
   },
   {
     icon: <ChartNoAxesCombined className="size-20" />,
-    label: "Payout Processed",
+    label: "Payouts Processed",
     value: 15,
     suffix: "K+",
   },
