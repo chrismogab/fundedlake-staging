@@ -10,10 +10,15 @@ import img9 from '../assets/certificate-of-withdrawl9.jpg';
 import img10 from '../assets/certificate-of-withdrawl10.jpg'; 
 import img11 from '../assets/certificate-of-withdrawl11.jpg'; 
 import img12 from '../assets/certificate-of-withdrawl12.jpg'; 
+import img13 from '../assets/certificate-of-withdrawl13.jpg'; 
+import img14 from '../assets/certificate-of-withdrawl14.jpg'; 
+import img15 from '../assets/certificate-of-withdrawl15.jpg'; 
+import img16 from '../assets/certificate-of-withdrawl16.jpg'; 
+import img17 from '../assets/certificate-of-withdrawl17.jpg'; 
 
 const CertificateMarqueeSlider = () => {
   // Latest images first
-  const images = [img12, img11, img10, img9, img8, img7, img6, img5, img4, img3, img2, img1];
+  const images = [img17, img16, img15, img14, img13, img12, img11, img10, img9, img8, img7, img6, img5, img4, img3, img2, img1];
 
   return (
     <div className="overflow-hidden py-6 md:py-10 lg:py-24 bg-[radial-gradient(circle,rgba(2,33,80,1)_6%,rgba(0,0,0,1)_47%)] min-w-full">
