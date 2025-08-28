@@ -29,7 +29,11 @@ const Navbar = () => {
     `px-[15px] py-0 hover:text-white hover:bg-primary duration-300 ${ isActive ? 'bg-primary text-white' : 'text-white'}`}>
             CONTACT US
           </NavLink>
-          <a className='px-[15px] py-0 hover:text-white hover:bg-primary duration-300' href="https://fundedlakedashboard.propaccount.com/en/affiliates" target='_blank'>AFFILIATE PROGRAM</a>
+          <NavLink to="/forex-expo" className={({ isActive }) =>
+            `px-[15px] py-0 hover:text-white hover:bg-primary duration-300 ${isActive ? 'bg-primary text-white' : 'text-white'}`}>
+            FOREX EXPO DUBAI
+          </NavLink>
+          {/*<a className='px-[15px] py-0 hover:text-white hover:bg-primary duration-300' href="https://fundedlakedashboard.propaccount.com/en/affiliates" target='_blank'>AFFILIATE PROGRAM</a>*/}
         </div>
 
         {/* Buttons */}
@@ -66,7 +70,11 @@ const Navbar = () => {
     `px-[15px] py-0 hover:text-white hover:bg-primary duration-300 ${ isActive ? 'bg-primary text-white' : 'text-white'}`}>
             CONTACT US
           </NavLink>
-          <a className='px-[15px] py-0 hover:text-white hover:bg-primary duration-300' href="https://fundedlakedashboard.propaccount.com/en/affiliates" target='_blank'>AFFILIATE PROGRAM</a>
+          <NavLink to="/services" className={({ isActive }) =>
+            `px-[15px] py-0 hover:text-white hover:bg-primary duration-300 ${isActive ? 'bg-primary text-white' : 'text-white'}`}>
+            FOREX EXPO DUBAI
+          </NavLink>
+          {/* <a className='px-[15px] py-0 hover:text-white hover:bg-primary duration-300' href="https://fundedlakedashboard.propaccount.com/en/affiliates" target='_blank'>AFFILIATE PROGRAM</a> */}
           {/* Buttons */}
         <div className="lg:flex space-x-2">
           <a href='https://fundedlakedashboard.propaccount.com/en/sign-in' className="bg-primary hover:bg-white hover:text-black duration-300 text-white px-4 py-2 font-bold text-sm">
