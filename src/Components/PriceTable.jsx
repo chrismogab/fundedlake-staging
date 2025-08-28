@@ -21,6 +21,7 @@ export default () => (
     <TabPanel className="one-step InnerPriceTab mt-10 lg:text-lg">
       <Tabs>
         <TabList>
+          <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$5K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$10K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$25K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$50K</Tab>
@@ -35,6 +36,21 @@ export default () => (
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$250K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$400K</Tab>
         </TabList>
+        <TabPanel className="5K">
+          <OneStepPriceCard />
+          <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
+            <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
+              <span className="text-primary">$35</span> for
+              <span className="text-primary"> 5K </span> Account
+            </h2>
+            <a
+              href="https://fundedlakedashboard.propaccount.com/en/challenges?planid=99" target="_blank"
+              className="bg-sky-500 hover:bg-white hover:text-black duration:300 text-white px-4 py-2 font-bold rounded text-[15px]"
+            >
+              <button>GET FUNDED</button>
+            </a>
+          </div>
+        </TabPanel>
         <TabPanel className="10K">
           <OneStepPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
@@ -130,6 +146,7 @@ export default () => (
     <TabPanel className="two-step InnerPriceTab mt-10 lg:text-lg">
       <Tabs>
         <TabList>
+          <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$5K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$10K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$25K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$50K</Tab>
@@ -143,6 +160,21 @@ export default () => (
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$250K</Tab>
           <Tab className="text-center hover:bg-white hover:text-dark cursor-pointer">$400K</Tab>
         </TabList>
+        <TabPanel className="5K">
+          <TwoStepPriceCard />
+          <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
+            <h2 class="text-center lg:text-6xl md:text-4xl text-3xl font-bold">
+              <span className="text-primary">$25</span> for
+              <span className="text-primary"> 5K </span> Account
+            </h2>
+            <a
+              href="https://fundedlakedashboard.propaccount.com/en/challenges?planid=160" target="_blank"
+              className="bg-sky-500 hover:bg-white hover:text-black duration:300 text-white px-4 py-2 font-bold rounded text-[15px]"
+            >
+              <button>GET FUNDED</button>
+            </a>
+          </div>
+        </TabPanel>
         <TabPanel className="10K">
           <TwoStepPriceCard />
           <div className="headingContainer mt-12 flex flex-col items-center justify-center md:gap-10 gap-8">
