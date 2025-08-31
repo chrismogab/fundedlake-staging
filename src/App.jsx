@@ -9,6 +9,7 @@ import useLenis from './hooks/useLenis';
 import TopBar from './Components/TopBar';
 import ScrollToTop from './Components/ScrollToTop';
 import EmailPopup from './Components/EmailPopup';
+import ForexExpo from './pages/ForexExpo';
 
 function App() {
   useLenis();
@@ -24,7 +25,7 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />} />
         <Route path="/faqs" element={<Faq />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/forex-expo" element={<forex-expo />} />
+        <Route path="/forex-expo" element={<ForexExpo />} />
       </Routes>
       <Footer />
     </Router>

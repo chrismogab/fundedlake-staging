@@ -116,3 +116,11 @@
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
 }
+.slick-dots li button:before {
+  color: white !important;
+  font-size: 10px !important; 
+}
+
+.slick-prev, .slick-next {
+  z-index: 10; /* Keep arrows visible */
+}

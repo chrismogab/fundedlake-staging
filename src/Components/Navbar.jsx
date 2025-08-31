@@ -70,7 +70,7 @@ const Navbar = () => {
     `px-[15px] py-0 hover:text-white hover:bg-primary duration-300 ${ isActive ? 'bg-primary text-white' : 'text-white'}`}>
             CONTACT US
           </NavLink>
-          <NavLink to="/services" className={({ isActive }) =>
+          <NavLink to="/forex-expo" className={({ isActive }) =>
             `px-[15px] py-0 hover:text-white hover:bg-primary duration-300 ${isActive ? 'bg-primary text-white' : 'text-white'}`}>
             FOREX EXPO DUBAI
           </NavLink>
