@@ -1,12 +1,12 @@
 import { Helmet } from "react-helmet";
-import backgroundImg from "../assets/forex-expo-imgs/forex-expo-banner.png";
-import { FaGlobe, FaChartLine, FaHandshake } from "react-icons/fa";
 import CountDownSection from "../Components/CountDownSection";
 import BecomePartnerForm from "../Components/BecomePartnerForm";
 import BecomePartnerSlider from "../Components/BecomePartnerSlider";
 import partnerIcon1 from "../assets/icons/partnerIcon1.png"
 import partnerIcon2 from "../assets/icons/partnerIcon2.png"
 import partnerIcon3 from "../assets/icons/partnerIcon3.png"
+import heroVideo from "../assets/hero-background-video1.mp4";
+
 
 
 const ForexExpo = () => {
@@ -73,8 +73,17 @@ const ForexExpo = () => {
       </Helmet>
 
       <div
-        className="relative bg-cover bg-center bg-no-repeat font-lexend text-white lg:min-h-[80vh]  flex items-center justify-center text-center px-4"  style={{ backgroundImage: `url(${backgroundImg})` }}
+        className="relative bg-cover bg-center bg-no-repeat font-lexend text-white lg:min-h-[80vh]  flex items-center justify-center text-center px-4"  
       >
+        {/* Background Video */}
+                  <video
+                    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+                    src={heroVideo}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                  />
         <div className="absolute inset-0 bg-black opacity-30"></div>
           <div className="w-full max-w-6xl mx-auto py-16 grid md:grid-cols-2 grid-cols-1 gap-[40px] z-10">
             <div className="text-left flex flex-col items-start justify-center gap-[10px]">
