@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { X, Mail } from "lucide-react";
 import popupImg from "../assets/popupImg.png";
+import popupImg100 from "../assets/popupImg-100k.png";
 import emailjs from "@emailjs/browser";
 
 function EmailPopup() {
@@ -25,11 +26,11 @@ function EmailPopup() {
 
     emailjs
       .sendForm(
-        "service_2vorqnj", // Replace with your EmailJS service ID
-        "template_q888smc", // Replace with your EmailJS template ID
+        "#", // Replace with your EmailJS service ID
+        "#", // Replace with your EmailJS template ID
         form.current,
         {
-          publicKey: "iSAUlRGczFV4MCVV6", // Replace with your EmailJS public key
+          publicKey: "#", // Replace with your EmailJS public key
         }
       )
       .then(
@@ -58,16 +59,16 @@ function EmailPopup() {
         </button>
 
         <div className="grid md:grid-cols-2 grid-cols-1 gap-6">
-          <img className="border-2 md:w-full w-[60%] md-mx-0 mx-auto" src={popupImg} alt="" />
+          <img className="border-2 md:w-full w-[60%] md-mx-0 mx-auto" src={popupImg100} alt="" />
           <div className="popupContent text-start flex-col flex justify-around">
             <h3 className="font-semibold md:text-[24px] text-[20px] text-center md:text-left">
-              ⚡WIN A FREE 200k 2-STEP CHALLENGE GIVEAWAY ⚡
+              ⚡WIN A FREE 100k 2-STEP CHALLENGE GIVEAWAY ⚡
             </h3>
             <p className="md:text-2xl text-xl mt-4 text-center md:text-left">
-              Join our discord for a chance to a win a $200k 2-step challenge
-Winner will be announced on our discord
+              Enter your email and join our discord for a chance to win a 100k 2-Step challenge account
+              Winner will be announced on discord
             </p>
-            {/* 
+             
             <form
               ref={form}
               onSubmit={sendEmail}
@@ -94,20 +95,20 @@ Winner will be announced on our discord
                 <p className="text-sm font-semibold mt-2">{message}</p>
               )}
             </form>
-            */}
+            
             <hr className="border-t-1 w-[95%] mx-auto border-[#b4b4b4]" />
             <div className="contact-btns md:gap-5 gap-2 my-6 flex justify-center">
               <a
                 className="md:px-4 md:py-3 px-4 pt-3 m-0 font-semibold rounded-full text-[14px] md:text-[16px] bg-primary"
                 href="https://discord.gg/vDSnjmxndy"
               >
-                JOIN NOW
+                JOIN OUR DISCORD
               </a>
               <a
                 className="md:px-4 md:py-3 px-4 py-3 font-semibold rounded-full text-[14px] md:text-[16px] bg-secondory text-dark"
                 href="https://fundedlakedashboard.propaccount.com/en/sign-up"
               >
-                SIGN UP NOW
+                SIGNUP NOW
               </a>
             </div>
           </div>
