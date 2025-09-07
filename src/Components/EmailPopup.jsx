@@ -26,11 +26,11 @@ function EmailPopup() {
 
     emailjs
       .sendForm(
-        "#", // Replace with your EmailJS service ID
-        "#", // Replace with your EmailJS template ID
+        "service_thi1qfl", // Replace with your EmailJS service ID
+        "template_bwdpwa7", // Replace with your EmailJS template ID
         form.current,
         {
-          publicKey: "#", // Replace with your EmailJS public key
+          publicKey: "iSAUlRGczFV4MCVV6", // Replace with your EmailJS public key
         }
       )
       .then(
