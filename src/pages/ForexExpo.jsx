@@ -90,7 +90,17 @@ const ForexExpo = () => {
               <h2 className="lg:text-6xl md:text-5xl text-[3.4rem] font-bold">FUNDEDLAKE</h2>
               <h3 className="lg:text-[3.2rem] md:text-5xl md:mt-0 -mt-5 text-[2.6rem] font-bold">AT FOREX EXPO</h3>
               <span className="bg-secondory lg:text-6xl text-5xl p-2 text-dark font-bold">DUBAI 2025</span>
-              <p className="my-5 lg:w-[85%]">FundedLake is proud to be exhibiting at the 8th edition of Forex Expo Dubai, taking place on October 6–7 at the Dubai World Trade Centre. This premier event brings together over 250 leading forex and fintech brands and welcomes more than 30,000 traders, investors, fund managers, IBs, and affiliates from around the globe</p>
+              <p className="my-5 lg:w-[85%]">Dubai, UAE – September 2025 – FundedLake, the next-generation proprietary trading firm built by traders for traders, is excited to announce its participation at Forex Expo Dubai 2025, the largest gathering of traders, investors, brokers, and fintech leaders in the Middle East.
+<br/><br/>Visitors to Booth #262 will have the opportunity to connect directly with the FundedLake team, learn about our unique funding programs, and discover how we are redefining the trader experience with:<br/>
+	→ Zero payout denials – fast and transparent withdrawals<br/>
+	→ Instant funding options – no minimum trading days<br/>
+	→ Competitive rules & pricing – designed for real traders<br/>
+	→ Global trader community – education, mentorship, and support<br/><br/>
+“Our mission has always been simple: empower traders by removing the roadblocks and giving them the capital they need to succeed. Forex Expo Dubai is the perfect platform to share that vision with thousands of passionate traders from around the world,” said chris, Co-Founder of FundedLake.
+
+FundedLake invites all attendees to visit Booth #262 to meet the team, explore funding opportunities, and join a fast-growing community of traders who are mastering markets with confidence.
+
+For more information, visit: <a href="https://www.fundedlake.com">www.fundedlake.com</a></p>
               <BecomePartnerForm partnerBtn="lg:texl-4xl md:text-2xl" />
             </div>
             <div className="w-full">
