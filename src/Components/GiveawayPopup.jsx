@@ -32,15 +32,22 @@ const GiveawayPopup = () => {
         </button>
 
         <p className="md:text-[25px] text-[20px] my-8 font-[700]">
-          {popupData.message}
+          {/* {popupData.message} */}
+          🚀 LIMITED TIME ONLY 🚀
         </p>
-        <p className="text-2xl">Get 10% off any Challenge or Instant Funding account !</p>
-        <div className="px-6 pb-4 pt-2 flex flex-col gap-2">
-        <h3 className="font-semibold text-[24px]">⚡ First payout is instant </h3>
-        <h4 className="font-semibold text-[24px]">⏱ No minimum trading days — get funded in as little as 3 days  </h4>
-        <h4 className="font-semibold text-[24px]">👥 Join our Discord for weekly calls, market insights, and exclusive giveaways</h4>
-        </div>
-        <div className="button-box flex flex-col justify-center items-center md:gap-6 gap-3 flex-wrap">
+        <h3 className="text-2xl">Claim 50% OFF your first challenge</h3>
+        <div className="text-xl">CODE: Copy<button className="border px-4 py-1 bg-primary ml-2"
+            onClick={() => navigator.clipboard.writeText("NEW50") }>Copy NEW50 </button></div>
+            <p className="text-2xl font-[700]">OR</p>
+        
+        <div className="text-xl">
+           <h3 className="text-2xl mb-6">30% OFF any challeng</h3>
+          CODE:<button
+  className="border px-4 py-1 bg-primary ml-2"
+  onClick={() => navigator.clipboard.writeText("FALL30")}
+> Copy FALL30 </button></div>
+            <h3 className="font-semibold text-[24px]">⚡ Don’t miss out! </h3>
+        {/* <div className="button-box flex flex-col justify-center items-center md:gap-6 gap-3 flex-wrap">
           {popupData.buttons.map((btn, index) => (
             <a
               key={index}
@@ -56,7 +63,7 @@ const GiveawayPopup = () => {
               {btn.label}
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
