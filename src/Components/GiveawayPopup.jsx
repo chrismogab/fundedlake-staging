@@ -35,13 +35,13 @@ const GiveawayPopup = () => {
           {/* {popupData.message} */}
           🚀 LIMITED TIME ONLY 🚀
         </p>
-        <h3 className="text-2xl">Claim 50% OFF your first challenge</h3>
-        <div className="text-xl">CODE: Copy<button className="border px-4 py-1 bg-primary ml-2"
+        <h3 className="text-2xl">Claim 50% OFF your first challenges on (5k,10k,25k accounts)</h3>
+        <div className="text-xl">CODE: <button className="border px-4 py-1 bg-primary ml-2"
             onClick={() => navigator.clipboard.writeText("NEW50") }>Copy NEW50 </button></div>
             <p className="text-2xl font-[700]">OR</p>
         
         <div className="text-xl">
-           <h3 className="text-2xl mb-6">30% OFF any challeng</h3>
+           <h3 className="text-2xl mb-6">30% OFF any challenge</h3>
           CODE:<button
   className="border px-4 py-1 bg-primary ml-2"
   onClick={() => navigator.clipboard.writeText("FALL30")}
