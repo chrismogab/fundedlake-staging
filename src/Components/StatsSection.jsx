@@ -1,25 +1,26 @@
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { CircleDollarSign, Gift, ChartNoAxesCombined } from 'lucide-react';
+import { ChartCandlestick , Banknote, Earth  } from 'lucide-react';
+
 
 const stats = [
   {
-    icon: <CircleDollarSign className="size-20" />, // replace with your icon or image
+    icon: <ChartCandlestick  className="size-20" />, // replace with your icon or image
     label: "Active Traders",
-    value: 100,
+    value: 300,
     suffix: "+",
   },
   {
-    icon: <Gift className="size-20" />,
-    label: "Funded Traders",
-    value: 20,
+    icon: <Earth className="size-20" />,
+    label: "Countries",
+    value: 25,
     suffix: "+",
   },
   {
-    icon: <ChartNoAxesCombined className="size-20" />,
+    icon: <Banknote  className="size-20" />,
     label: "Payouts Processed",
-    value: 15,
+    value: 40,
     suffix: "K+",
   },
 ];
