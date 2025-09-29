@@ -95,7 +95,7 @@ function Home() {
             />
 
             {/* Button with Arrow */}
-            <div className="relative mt-10 flex flex-col gap-5">
+            <div className="relative mt-10 flex flex-col items-center gap-5">
               <img
                 src={blueArrow}
                 alt="arrow"
@@ -117,6 +117,15 @@ function Home() {
               >
                 <button className="text-dark text-lg sm:text-xl lg:text-xl font-bold bg-secondory hover:scale-105 duration-300 border border-white rounded-md px-6 py-3">
                   SIGN UP NOW
+                </button>
+              </a>
+              <a
+                href="https://fundedlakedashboard.propaccount.com/en/challenges?planid=163"
+                target="_blank"
+                rel="noopener noreferrer" className="md:hidden block"
+              >
+                <button className="text-dark text-lg sm:text-xl lg:text-xl font-bold bg-secondory hover:scale-105 duration-300 border border-white rounded-md px-6 py-3">
+                  GET FUNDED
                 </button>
               </a>
             </div>
