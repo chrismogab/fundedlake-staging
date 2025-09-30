@@ -2,10 +2,10 @@
   "messages": [
     {
       "newTraderCode": "NEW50 ",
-      "allTradersCode": "FALL30"
+      "allTradersCode": "TRADE10"
       
     }
   ],
   "newTrader": "New Traders: Get 50% OFF first challenge (5K, 10K, 25K) with code NEW50",
-  "allTraders": "For all traders: 30% OFF any challenge with code FALL30!"
+  "allTraders": "10% off any program CODE"
 }

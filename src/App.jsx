@@ -10,7 +10,7 @@ import TopBar from './Components/TopBar';
 import ScrollToTop from './Components/ScrollToTop';
 import EmailPopup from './Components/EmailPopup';
 import ForexExpo from './pages/ForexExpo';
-import GiveawayPopup from './Components/GiveawayPopup';
+// import GiveawayPopup from './Components/GiveawayPopup';
 
 function App() {
   useLenis();
@@ -18,8 +18,8 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-    {/* <EmailPopup /> */}
-    <GiveawayPopup />
+    <EmailPopup />
+    {/* <GiveawayPopup /> */}
       <TopBar />
       <Navbar />
       <Routes>
