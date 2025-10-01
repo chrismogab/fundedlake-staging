@@ -19,7 +19,7 @@ const stats = [
   },
   {
     icon: <Banknote  className="size-20" />,
-    label: "Payouts Processed",
+    label: "In Payouts Processed",
     value: 40,
     suffix: "K+",
   },
