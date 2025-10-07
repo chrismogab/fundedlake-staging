@@ -8,19 +8,19 @@ const stats = [
   {
     icon: <ChartCandlestick  className="size-20" />, // replace with your icon or image
     label: "Active Traders",
-    value: 300,
+    value: 500,
     suffix: "+",
   },
   {
     icon: <Earth className="size-20" />,
     label: "Countries",
     value: 25,
-    suffix: "+",
+    //suffix: "+", //
   },
   {
     icon: <Banknote  className="size-20" />,
     label: "In Payouts Processed",
-    value: 40,
+    value: 80,
     suffix: "K+",
   },
 ];
