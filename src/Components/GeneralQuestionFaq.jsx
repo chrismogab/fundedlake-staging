@@ -87,6 +87,45 @@ function GeneralQuestionFaq({ searchTerm }) {
     },
 
     {
+      question: "How many Assessments and/or Funded accounts may I have active at one time?",
+      answer: (
+        <div className="space-y-4 text-white text-[16px] leading-relaxed">
+          <p>
+            <strong>Evaluation Limits:</strong>
+          </p>
+          <ul className="list-disc list-inside">
+            <li>
+              You are allowed to take only one evaluation of a specific account size and a specific plan tier at a time across all trading platforms.
+            </li>
+            <li><strong>Example:</strong> You can have one 100k One Step Plan and one 100k Two Step Plan active simultaneously. However, you cannot have one 100k One Step Plan on DXTrade and another 100k One Step Plan on cTrader, or 2+ 100k 1 Step plans on any combination of platforms. </li>
+          </ul>
+          <p><strong>Maximum Assessment Limits:</strong></p>
+          <ul className="list-disc list-inside">
+            <li>A maximum of $1 million in active evaluation plans per person is permitted. This can be composed of multiple assessments, provided that none are the same account size and are within the same Step framework as described above. </li>
+          </ul>
+          <p><strong>Maximum Funded Limits:</strong></p>
+          <ul className="list-disc list-inside">
+            <li>A maximum of $1 million in active funded plans per person is permitted.</li>
+            <li>If a customer passes multiple assessments and has 2 active funded accounts of the same account size, they will have 2 options:-
+</li>
+          </ul>
+          <ol className="list-decimal list-inside pl-8">
+            <li>Only have one funded account of that size open at a time and wait for the account to be breached before making the other funded account active.</li>
+            <li>If no trading has taken place in either account, the customer can opt to combine the 2 accounts into a single account of double the size.</li>
+          </ol>
+          <p>
+            <strong>Compounding Limits:</strong>
+          </p>
+          <ul className="list-disc list-inside">
+            <li>There are no limits on compounding.</li>
+            <li>You can start with up to $1 million of initial funding and grow the account to any balance you desire, including $10 million, $20 million, and beyond.
+</li>
+          </ul>
+        </div>
+      ),
+    },
+
+    {
       question:
         "Do we manipulate the pricing or executions you receive in your Funded Account?",
       answer:
